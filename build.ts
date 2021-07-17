@@ -13,10 +13,13 @@ const getUiName = (name: string) => names[name] || name;
 const locationMarkerTexts: {[actor: string]: string} = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'content', 'text', 'StaticMsg', 'LocationMarker.json'), 'utf8'));
 const dungeonTexts: {[actor: string]: string} = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'content', 'text', 'StaticMsg', 'Dungeon.json'), 'utf8'));
 
+const drop_data = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'drop_table.json'), 'utf8'));
+
 const db = sqlite3('map.db.tmp');
 db.pragma('journal_mode = WAL');
 
 db.exec(`
+  DROP TABLE IF EXISTS objs;
   CREATE TABLE objs (
    objid INTEGER PRIMARY KEY,
    map_type TEXT NOT NULL,
@@ -40,6 +43,17 @@ db.exec(`
    messageid TEXT
   );
 `);
+
+db.exec(`
+   DROP TABLE IF EXISTS drop_table;
+   CREATE TABLE drop_table (
+     unit_config_name TEXT NOT NULL,
+     name TEXT NOT NULL,
+     data JSON
+  );
+`);
+
+
 
 const insertObj = db.prepare(`INSERT INTO objs
   (map_type, map_name, map_static, gen_group, hash_id, unit_config_name, ui_name, data, one_hit_mode, last_boss_mode, hard_mode, disable_rankup_for_hard_mode, scale, sharp_weapon_judge_type, 'drop', equip, ui_drop, ui_equip, messageid)
@@ -203,6 +217,16 @@ function processMaps() {
   }
 }
 db.transaction(() => processMaps())();
+
+function create_drop_table() {
+    let stmt = db.prepare(`INSERT INTO drop_table (unit_config_name, name, data) VALUES (@unit_config_name, @name, @data)`);
+    drop_data.forEach((row : any) => {
+        let result = stmt.run( row );
+    });
+}
+
+console.log('creating drop data table...');
+db.transaction( () => create_drop_table() )();
 
 function createIndexes() {
   db.exec(`

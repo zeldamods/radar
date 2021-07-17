@@ -17,12 +17,68 @@ app.use(responseTime());
 
 app.use(express.static(path.join(util.APP_ROOT, 'static')));
 
+function get_drop_table( result ) {
+
+    // Return if result.drop is undefined or an Actor is dropped
+    if(result.drop !== undefined && result.drop[0] === 1) { // Drops an Actor
+        return undefined;
+    }
+
+    let drop_table_list = [];
+    if(result.drop != 'null' && result.drop !== undefined ) {
+        if(result.drop[0] == 2) {
+            drop_table_list.push( result.drop[1] );
+        }
+    }
+    // Grab Drop Table name if result.drop is like [2; table]
+    if(result.drop !== undefined) {
+        drop_table_list.push( result.drop[1] ); // Add specific drop table to the list
+    }
+    // Insert ArrowName as a Drop Table 
+    if(('data' in result) && !('!Parameters' in result.data)) {
+        if('ArrowName' in result.data['!Parameters']) {
+            drop_table_list.push(result.data['!Parameters'].ArrowName);
+        }
+    }
+    let out = null;
+    if(drop_table_list.length > 0) {
+        let commas = new Array(drop_table_list.length).fill("?").join(", ");
+        const stmt = db.prepare(`SELECT data, name from drop_table where
+           unit_config_name = ?
+           and ( name like "Normal%" or name in (${commas}) )`);
+        drop_table_list.unshift( result.name );
+        out = stmt.all( drop_table_list );
+    } else {
+        const stmt = db.prepare(`SELECT data, name from drop_table where
+           unit_config_name = ? and name like "Normal%"`);
+        out = stmt.all( result.name );
+    }
+    if(out.length == 0) {
+        return undefined;
+    }
+    // Convert result to JSON
+    return out.reduce((acc, cur) =>
+        ({ ...acc,[cur.name]: JSON.parse(cur.data)}), {});
+}
+function get_drop_tables( result ) {
+    const stmt = db.prepare('SELECT name, data from drop_table where unit_config_name = @unit_config_name');
+    const out = stmt.all({ unit_config_name: result.name });
+    if(out.length == 0) {
+        return undefined;
+    }
+    return out.reduce((acc, cur) =>
+        ({ ...acc,[cur.name]: JSON.parse(cur.data)}), {});
+}
+
+
 function parseResult(result: any): {[key: string]: any} {
   if (!result)
     return {};
 
   result.data = JSON.parse(result.data);
   result.drop = JSON.parse(result.drop) || undefined;
+    result.drop_table  = get_drop_table( result );
+    result.drop_tables = get_drop_tables( result );
   result.equip = JSON.parse(result.equip) || undefined;
   if (!result.equip || !result.equip.length)
     result.equip = undefined;
