@@ -3,6 +3,8 @@ import fs from 'fs';
 import path from 'path';
 import sqlite3 from 'better-sqlite3';
 
+const yaml = require('js-yaml');
+
 import {PlacementMap, PlacementObj, PlacementLink, ResPlacementObj} from './app/PlacementMap';
 import * as util from './app/util';
 
@@ -13,7 +15,99 @@ const getUiName = (name: string) => names[name] || name;
 const locationMarkerTexts: {[actor: string]: string} = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'content', 'text', 'StaticMsg', 'LocationMarker.json'), 'utf8'));
 const dungeonTexts: {[actor: string]: string} = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'content', 'text', 'StaticMsg', 'Dungeon.json'), 'utf8'));
 
-const drop_data = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'drop_table.json'), 'utf8'));
+// Create Special tags for YAML: !obj, !list, !io, !str64
+var objType = new yaml.Type('!obj', { kind: 'mapping', instanceOf: Object,
+  resolve: function(data: any) { return true; },
+  construct: function(data: any) { return data; },
+});
+var listType = new yaml.Type('!list', { kind: 'mapping', instanceOf: Object,
+  resolve: function(data: any) { return true; },
+  construct: function(data: any) { return data; },
+});
+var ioType = new yaml.Type('!io', { kind: 'mapping', instanceOf: Object,
+  resolve: function(data: any) { return true; },
+  construct: function(data: any) { return data; },
+});
+var str64Type = new yaml.Type('!str64', { kind: 'scalar', instanceOf: String,
+  resolve: function(data: any) { return true; },
+  construct: function(data: any) { return data; },
+});
+
+// Add Special Tags to the Default schema (to facilitate reading)
+let schema = yaml.DEFAULT_SCHEMA.extend([ objType, listType, ioType, str64Type ])
+
+function readYAML(filePath: string) {
+  let doc : any = null;
+  try {
+    doc = yaml.load(fs.readFileSync( filePath, 'utf-8'), {schema: schema} );
+  } catch (e) {
+    console.log(e);
+    process.exit(1);
+  }
+  return doc;
+}
+
+function getDropTableNameFromActorLinkFile( file: string ) {
+  let doc = readYAML(file);
+  if('DropTableUser' in doc.param_root.objects.LinkTarget) {
+    let dropTableUser = doc.param_root.objects.LinkTarget.DropTableUser;
+    return dropTableUser;
+  }
+  return undefined;
+}
+
+function readDropTableFile( file: string ) {
+  let doc = readYAML(file)
+  let tables : any = Object.keys( doc.param_root.objects )
+    .filter(key => key != 'Header')
+    .map(key => {
+      let dropTable = doc.param_root.objects[key];
+      let pop : {[key:string]: any} = {};
+      for(var i = 1; i <= dropTable.ColumnNum; i++) {
+        let itemName = `ItemName${String(i).padStart(2,'0')}`;
+        let itemProb = `ItemProbability${String(i).padStart(2,'0')}`;
+        pop[ dropTable[itemName] ] = dropTable[ itemProb ];
+      }
+      let data = {
+        pop: pop,
+        n: [dropTable.RepeatNumMin, dropTable.RepeatNumMax],
+      };
+      return {name: key, data: JSON.stringify(data)};
+    });
+  return tables;
+}
+
+function readDropTablesByName( table: string ) {
+  return readDropTableFile( path.join(util.APP_ROOT, 'content', 'DropTable', `${table}.drop.yml`) );
+}
+
+function readDropTables() {
+  let lootTables : {[key:string]: any} = {}; // { unitConfigName: dropTableFilename }
+  // Read all files in content/ActorLink directory
+  let dirPath = path.join(util.APP_ROOT, 'content','ActorLink');
+  let files = fs.readdirSync( dirPath );
+  files.forEach( file => {
+    let filePath = path.join(util.APP_ROOT, 'content', 'ActorLink', file);
+    let tableName = getDropTableNameFromActorLinkFile( filePath );
+    if(tableName) {
+      let key = path.basename( file, '.yml'); // ==> UnitConfigName
+      lootTables[key] = tableName;
+    }
+  });
+
+  // Read Drop Table Data
+  let data : any[] = [];
+  Object.keys(lootTables)
+    .filter(name => lootTables[name] != "Dummy") // Ignore empty Dummy tables
+    .forEach(name => {
+      let tables = readDropTablesByName( lootTables[name] );
+      tables.forEach((table : any) => table.unit_config_name = name ); // Add UnitConfigName to each table
+      data.push( ... tables );
+    });
+  return data;
+}
+
+let dropData = readDropTables();
 
 const db = sqlite3('map.db.tmp');
 db.pragma('journal_mode = WAL');
@@ -220,7 +314,7 @@ db.transaction(() => processMaps())();
 
 function create_drop_table() {
     let stmt = db.prepare(`INSERT INTO drop_table (unit_config_name, name, data) VALUES (@unit_config_name, @name, @data)`);
-    drop_data.forEach((row : any) => {
+    dropData.forEach((row : any) => {
         let result = stmt.run( row );
     });
 }
