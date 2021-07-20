@@ -16,30 +16,30 @@ const locationMarkerTexts: {[actor: string]: string} = JSON.parse(fs.readFileSyn
 const dungeonTexts: {[actor: string]: string} = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'content', 'text', 'StaticMsg', 'Dungeon.json'), 'utf8'));
 
 // Create Special tags for YAML: !obj, !list, !io, !str64
-var objType = new yaml.Type('!obj', { kind: 'mapping', instanceOf: Object,
+const objType = new yaml.Type('!obj', { kind: 'mapping', instanceOf: Object,
   resolve: function(data: any) { return true; },
   construct: function(data: any) { return data; },
 });
-var listType = new yaml.Type('!list', { kind: 'mapping', instanceOf: Object,
+const listType = new yaml.Type('!list', { kind: 'mapping', instanceOf: Object,
   resolve: function(data: any) { return true; },
   construct: function(data: any) { return data; },
 });
-var ioType = new yaml.Type('!io', { kind: 'mapping', instanceOf: Object,
+const ioType = new yaml.Type('!io', { kind: 'mapping', instanceOf: Object,
   resolve: function(data: any) { return true; },
   construct: function(data: any) { return data; },
 });
-var str64Type = new yaml.Type('!str64', { kind: 'scalar', instanceOf: String,
+const str64Type = new yaml.Type('!str64', { kind: 'scalar', instanceOf: String,
   resolve: function(data: any) { return true; },
   construct: function(data: any) { return data; },
 });
 
 // Add Special Tags to the Default schema (to facilitate reading)
-let schema = yaml.DEFAULT_SCHEMA.extend([ objType, listType, ioType, str64Type ])
+let schema = yaml.DEFAULT_SCHEMA.extend([ objType, listType, ioType, str64Type ]);
 
 function readYAML(filePath: string) {
   let doc : any = null;
   try {
-    doc = yaml.load(fs.readFileSync( filePath, 'utf-8'), {schema: schema} );
+    doc = yaml.load(fs.readFileSync(filePath, 'utf-8'), {schema: schema});
   } catch (e) {
     console.log(e);
     process.exit(1);
@@ -53,7 +53,7 @@ function getDropTableNameFromActorLinkFile( file: string ) {
     let dropTableUser = doc.param_root.objects.LinkTarget.DropTableUser;
     return dropTableUser;
   }
-  return undefined;
+  return null;
 }
 
 function readDropTableFile( file: string ) {
@@ -113,7 +113,6 @@ const db = sqlite3('map.db.tmp');
 db.pragma('journal_mode = WAL');
 
 db.exec(`
-  DROP TABLE IF EXISTS objs;
   CREATE TABLE objs (
    objid INTEGER PRIMARY KEY,
    map_type TEXT NOT NULL,
@@ -139,7 +138,6 @@ db.exec(`
 `);
 
 db.exec(`
-   DROP TABLE IF EXISTS drop_table;
    CREATE TABLE drop_table (
      unit_config_name TEXT NOT NULL,
      name TEXT NOT NULL,
@@ -312,15 +310,15 @@ function processMaps() {
 }
 db.transaction(() => processMaps())();
 
-function create_drop_table() {
     let stmt = db.prepare(`INSERT INTO drop_table (unit_config_name, name, data) VALUES (@unit_config_name, @name, @data)`);
+function createDropTable() {
     dropData.forEach((row : any) => {
         let result = stmt.run( row );
     });
 }
 
 console.log('creating drop data table...');
-db.transaction( () => create_drop_table() )();
+db.transaction( () => createDropTable() )();
 
 function createIndexes() {
   db.exec(`
