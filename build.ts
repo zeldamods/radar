@@ -74,17 +74,17 @@ function readDropTableFile( file: string ) {
     .filter(key => key != 'Header')
     .map(key => {
       let dropTable = doc.param_root.objects[key];
-      let pop : {[key:string]: any} = {};
+      let items : {[key:string]: any} = {};
       for(var i = 1; i <= dropTable.ColumnNum; i++) {
         let itemName = `ItemName${String(i).padStart(2,'0')}`;
         let itemProb = `ItemProbability${String(i).padStart(2,'0')}`;
-        pop[ dropTable[itemName] ] = dropTable[ itemProb ];
+        items[ dropTable[itemName] ] = dropTable[ itemProb ];
       }
       let data = {
-        pop: pop,
-        n: [dropTable.RepeatNumMin, dropTable.RepeatNumMax],
+        items: items,
+        repeat_num: [dropTable.RepeatNumMin, dropTable.RepeatNumMax],
       };
-      return {name: key, data: JSON.stringify(data)};
+      return {name: key, data: data};
     });
   return tables;
 }
@@ -102,8 +102,8 @@ function readDropTables() {
     let filePath = path.join(botwData, 'ActorLink', file);
     let tableName = getDropTableNameFromActorLinkFile( filePath );
     if(tableName) {
-      let key = path.basename( file, '.yml'); // ==> UnitConfigName
-      lootTables[key] = tableName;
+      let actorName = path.basename(file, '.yml'); // ==> UnitConfigName
+      lootTables[actorName] = tableName;
     }
   });
 
@@ -113,7 +113,7 @@ function readDropTables() {
     .filter(name => lootTables[name] != "Dummy") // Ignore empty Dummy tables
     .forEach(name => {
       let tables = readDropTablesByName( lootTables[name] );
-      tables.forEach((table : any) => table.unit_config_name = name ); // Add UnitConfigName to each table
+      tables.forEach((table : any) => table.actor_name = name ); // Matches unit_config_name in table objs
       data.push( ... tables );
     });
   return data;
@@ -151,7 +151,7 @@ db.exec(`
 
 db.exec(`
    CREATE TABLE drop_table (
-     unit_config_name TEXT NOT NULL,
+     actor_name TEXT NOT NULL,
      name TEXT NOT NULL,
      data JSON
   );
@@ -322,10 +322,10 @@ function processMaps() {
 }
 db.transaction(() => processMaps())();
 
-    let stmt = db.prepare(`INSERT INTO drop_table (unit_config_name, name, data) VALUES (@unit_config_name, @name, @data)`);
 function createDropTable() {
+    let stmt = db.prepare(`INSERT INTO drop_table (actor_name, name, data) VALUES (@actor_name, @name, @data)`);
     dropData.forEach((row : any) => {
-        let result = stmt.run( row );
+        let result = stmt.run({ actor_name: row.actor_name, name: row.name, data: JSON.stringify(row.data)});
     });
 }
 
