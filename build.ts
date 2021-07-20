@@ -8,6 +8,18 @@ const yaml = require('js-yaml');
 import {PlacementMap, PlacementObj, PlacementLink, ResPlacementObj} from './app/PlacementMap';
 import * as util from './app/util';
 
+let parseArgs = require('minimist');
+
+let argv = parseArgs(process.argv);
+
+if(!argv.a) {
+    console.log("Error: Must specify a path to directory with ActorLink and DropTable YAML files");
+    console.log("       e.g. % ts-node build.ts -a ../botw/Actor")
+    console.log("       YAML data files are available from https://github.com/leoetlino/botw");
+    process.exit(1);
+}
+const botwData = argv.a;
+
 const actorinfodata = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'content', 'ActorInfo.product.json'), 'utf8'));
 
 const names: {[actor: string]: string} = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'content', 'names.json'), 'utf8'));
@@ -78,16 +90,16 @@ function readDropTableFile( file: string ) {
 }
 
 function readDropTablesByName( table: string ) {
-  return readDropTableFile( path.join(util.APP_ROOT, 'content', 'DropTable', `${table}.drop.yml`) );
+  return readDropTableFile(path.join(botwData, 'DropTable', `${table}.drop.yml`));
 }
 
 function readDropTables() {
   let lootTables : {[key:string]: any} = {}; // { unitConfigName: dropTableFilename }
   // Read all files in content/ActorLink directory
-  let dirPath = path.join(util.APP_ROOT, 'content','ActorLink');
+  let dirPath = path.join(botwData, 'ActorLink');
   let files = fs.readdirSync( dirPath );
   files.forEach( file => {
-    let filePath = path.join(util.APP_ROOT, 'content', 'ActorLink', file);
+    let filePath = path.join(botwData, 'ActorLink', file);
     let tableName = getDropTableNameFromActorLinkFile( filePath );
     if(tableName) {
       let key = path.basename( file, '.yml'); // ==> UnitConfigName
