@@ -20,14 +20,8 @@ if(!argv.a) {
     console.log("       YAML data files are available from https://github.com/leoetlino/botw");
     process.exit(1);
 }
-if(!argv.e) {
-    console.log("Error: Must specify a path to directory with EcoSystem BECO files");
-    console.log("       e.g. % ts-node build.ts -e ../botw/EcoSystem")
-    console.log("       BECO data files are available from https://github.com/leoetlino/botw");
-    process.exit(1);
-}
 const botwData = argv.a;
-const becoData = argv.e;
+
 
 const actorinfodata = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'content', 'ActorInfo.product.json'), 'utf8'));
 
@@ -36,7 +30,7 @@ const getUiName = (name: string) => names[name] || name;
 const locationMarkerTexts: {[actor: string]: string} = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'content', 'text', 'StaticMsg', 'LocationMarker.json'), 'utf8'));
 const dungeonTexts: {[actor: string]: string} = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'content', 'text', 'StaticMsg', 'Dungeon.json'), 'utf8'));
 
-const mapTower = new beco.Beco(path.join(becoData, 'MapTower.beco'));
+const mapTower = new beco.Beco(path.join(util.APP_ROOT, 'content','ecosystem', 'MapTower.beco'));
 // Tower Names taken from Messages/Msg_USen.product.sarc/StaticMsg/LocationMarker.msyt Tower01 - Tower15
 const towerNames = ["Hebra", "Tabantha", "Gerudo", "Wasteland", "Woodland",
                     "Central", "Great Plateau", "Dueling Peaks", "Lake",

@@ -78,9 +78,7 @@ export class Beco {
 
     let row = clamp(z, 0, this.num_rows-1);
     if (this.divisor == 10) {
-      // the hex value should be a long long int
-      x = x / 10 + ((0x66666667 * x) >> 0x3F);
-      throw 'Divisor value of 10 untested';
+      x = x / 10;
     }
     if (this.offsets[row] >= this.offsets[row+1]) {
       return 0xFFFFFFFF;

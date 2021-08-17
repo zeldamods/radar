@@ -3,6 +3,6 @@ A server for querying placement objects in *The Legend of Zelda: Breath of the W
 
 Run build.ts to generate a map database before starting the server for the first time.
 
-    ts-node build.ts -a ../botw/Actor -e ../botw/EcoSystem
+    ts-node build.ts -a ../botw/Actor
 
-This assumes the `botw` directory contains the YAML and BECO data files from https://github.com/leoetlino/botw
+This assumes the `botw` directory contains the YAML data files from https://github.com/leoetlino/botw
