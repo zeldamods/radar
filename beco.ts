@@ -10,7 +10,7 @@ export class BecoSegment {
   }
 }
 
-function clamp(v: number , v0: number, v1: number): number {
+function clamp(v: number, v0: number, v1: number): number {
   if (v < v0) {
     v = v0;
   }
@@ -39,27 +39,27 @@ export class Beco {
       throw `Expected magic number 0x00112233, found ${this.magic}`;
     }
     this.num_rows = dv.getUint32(4, little);
-    this.divisor  = dv.getUint32(8, little);
-    this.padding  = dv.getUint32(12, little);
+    this.divisor = dv.getUint32(8, little);
+    this.padding = dv.getUint32(12, little);
 
     this.offsets = [];
     // Initial offset of segments
-    let off0 = 16 + this.num_rows * 4; 
-    for(let i = 0; i < this.num_rows; i++) {
+    let off0 = 16 + this.num_rows * 4;
+    for (let i = 0; i < this.num_rows; i++) {
       this.offsets.push(off0 + dv.getUint32(16 + i * 4, little) * 2);
     }
     // Add end offset for last row; offsets is 1 larger than other rows
     this.offsets.push(buf.byteLength);
 
     this.segments = [];
-    for(let i = 0; i < this.num_rows; i++) {
+    for (let i = 0; i < this.num_rows; i++) {
       let ioff = this.offsets[i];
-      let ioff1 = this.offsets[i+1];
+      let ioff1 = this.offsets[i + 1];
       let row = [];
-      while(ioff < ioff1) {
-        let data : number = dv.getUint16(ioff + 0, little);
-        let length : number = dv.getUint16(ioff + 2, little);
-        row.push( new BecoSegment(data, length));
+      while (ioff < ioff1) {
+        let data: number = dv.getUint16(ioff + 0, little);
+        let length: number = dv.getUint16(ioff + 2, little);
+        row.push(new BecoSegment(data, length));
         ioff += 4;
       }
       this.segments.push(row);
@@ -76,16 +76,16 @@ export class Beco {
     let x = Math.trunc(posx + 5000.0 + epsx);
     let z = Math.trunc((posz + 4000.0 + epsz) / this.divisor);
 
-    let row = clamp(z, 0, this.num_rows-1);
+    let row = clamp(z, 0, this.num_rows - 1);
     if (this.divisor == 10) {
       x = x / 10;
     }
-    if (this.offsets[row] >= this.offsets[row+1]) {
+    if (this.offsets[row] >= this.offsets[row + 1]) {
       return 0xFFFFFFFF;
     }
     let seg = this.segments[row];
     let totalLength = 0;
-    for(let i = 0; i < seg.length; i++) {
+    for (let i = 0; i < seg.length; i++) {
       totalLength += seg[i].length;
       if (x < totalLength) {
         return seg[i].data;
