@@ -301,7 +301,7 @@ function processMap(pmap: PlacementMap, isStatic: boolean): void {
       ui_drop: params ? objGetUiDrops(params) : null,
       ui_equip: params ? objGetUiEquipment(params) : null,
       messageid: params ? (params['MessageID'] || null) : null,
-      region: towerNames[ mapTower.getCurrentAreaNum(obj.data.Translate[0], obj.data.Translate[2]) ],
+      region: pmap.type == 'MainField' ? towerNames[mapTower.getCurrentAreaNum(obj.data.Translate[0], obj.data.Translate[2])] : "",
     });
     hashIdToObjIdMap.set(obj.data.HashId, result.lastInsertRowid);
   }
