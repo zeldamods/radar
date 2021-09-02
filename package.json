@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "tsc": "tsc",
-    "prod": "node ./app/app.js"
-    "dev": "ts-node-dev --respawn --transpile-only ./app/app.ts",
+    "prod": "node ./app/app.js",
+    "dev": "ts-node-dev --respawn --transpile-only ./app/app.ts"
   },
   "author": "leoetlino <leo@leolam.fr>",
   "license": "GPL-2.0-or-later",
