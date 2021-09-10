@@ -47,9 +47,12 @@ function parseResult(result: any): { [key: string]: any } {
 
 const FIELDS = 'objid, map_type, map_name, map_static, hash_id, unit_config_name as name, `drop`, equip, data, messageid, scale, sharp_weapon_judge_type, hard_mode, disable_rankup_for_hard_mode';
 
+const IS_LOTM = `(select (count(tag) > 0) from tags where
+actor_name = unit_config_name and tag = 'UnderGodForest') * (field_area = 64) as spawns_with_lotm`;
+
 // Returns object details for an object.
 app.get('/obj/:objid', (req, res) => {
-  const stmt = db.prepare(`SELECT ${FIELDS} FROM objs
+  const stmt = db.prepare(`SELECT ${FIELDS}, ${IS_LOTM} FROM objs
     WHERE objid = @objid LIMIT 1`);
   const result = parseResult(stmt.get({
     objid: parseInt(req.params.objid, 0),
@@ -61,7 +64,7 @@ app.get('/obj/:objid', (req, res) => {
 
 // Returns object details for an object.
 app.get('/obj/:map_type/:map_name/:hash_id', (req, res) => {
-  const stmt = db.prepare(`SELECT ${FIELDS} FROM objs
+  const stmt = db.prepare(`SELECT ${FIELDS}, ${IS_LOTM} FROM objs
     WHERE map_type = @map_type
       AND map_name = @map_name
       AND hash_id = @hash_id LIMIT 1`);
@@ -77,7 +80,7 @@ app.get('/obj/:map_type/:map_name/:hash_id', (req, res) => {
 
 // Returns the placement generation group for an object.
 app.get('/obj/:map_type/:map_name/:hash_id/gen_group', (req, res) => {
-  const result = db.prepare(`SELECT ${FIELDS} FROM objs
+  const result = db.prepare(`SELECT ${FIELDS}, ${IS_LOTM} FROM objs
     WHERE gen_group =
        (SELECT gen_group FROM objs
           WHERE map_type = @map_type
@@ -115,7 +118,7 @@ function handleReqObjs(req: express.Request, res: express.Response) {
 
   const mapNameQuery = mapName ? `AND map_name = @map_name` : '';
   const limitQuery = limit != -1 ? 'LIMIT @limit' : '';
-  const query = `SELECT ${FIELDS} FROM objs
+  const query = `SELECT ${FIELDS}, ${IS_LOTM} FROM objs
     WHERE map_type = @map_type ${mapNameQuery}
       AND objid in (SELECT rowid FROM objs_fts(@q))
     ${limitQuery}`;

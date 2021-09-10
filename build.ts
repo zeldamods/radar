@@ -35,6 +35,7 @@ const mapTower = new beco.Beco(path.join(util.APP_ROOT, 'content', 'ecosystem', 
 const towerNames = ["Hebra", "Tabantha", "Gerudo", "Wasteland", "Woodland",
   "Central", "Great Plateau", "Dueling Peaks", "Lake",
   "Eldin", "Akkala", "Lanayru", "Hateno", "Faron", "Ridgeland"];
+const fieldArea = new beco.Beco(path.join(util.APP_ROOT, 'content', 'ecosystem', 'FieldMapArea.beco'));
 
 // Create Special tags for YAML: !obj, !list, !io, !str64
 const objType = new yaml.Type('!obj', {
@@ -72,11 +73,17 @@ function readYAML(filePath: string) {
   return doc;
 }
 
-function getDropTableNameFromActorLinkFile(file: string) {
-  let doc = readYAML(file);
+function getDropTableNameFromActorLinkFile(doc: { [key: string]: any }): string | null {
   if ('DropTableUser' in doc.param_root.objects.LinkTarget) {
     let dropTableUser = doc.param_root.objects.LinkTarget.DropTableUser;
     return dropTableUser;
+  }
+  return null;
+}
+function getTagsFromActorLinkFile(doc: { [key: string]: any }): string[] | null {
+  if ('Tags' in doc.param_root.objects) {
+    let tags = doc.param_root.objects.Tags;
+    return Object.values(tags);
   }
   return null;
 }
@@ -106,21 +113,7 @@ function readDropTablesByName(table: string) {
   return readDropTableFile(path.join(botwData, 'DropTable', `${table}.drop.yml`));
 }
 
-function readDropTables() {
-  let lootTables: { [key: string]: any } = {}; // { unitConfigName: dropTableFilename }
-  // Read all files in content/ActorLink directory
-  let dirPath = path.join(botwData, 'ActorLink');
-  let files = fs.readdirSync(dirPath);
-  files.forEach(file => {
-    let filePath = path.join(botwData, 'ActorLink', file);
-    let tableName = getDropTableNameFromActorLinkFile(filePath);
-    if (tableName) {
-      let actorName = path.basename(file, '.yml'); // ==> UnitConfigName
-      lootTables[actorName] = tableName;
-    }
-  });
-
-  // Read Drop Table Data
+function readDropTables(lootTables: { [key: string]: string }) {
   let data: any[] = [];
   Object.keys(lootTables)
     .filter(name => lootTables[name] != "Dummy") // Ignore empty Dummy tables
@@ -132,7 +125,25 @@ function readDropTables() {
   return data;
 }
 
-let dropData = readDropTables();
+let itemTags: { [key: string]: string[] } = {};
+let lootTables: { [key: string]: string } = {};
+
+let dirPath = path.join(botwData, 'ActorLink');
+let files = fs.readdirSync(dirPath);
+files.forEach(file => {
+  let actorName = path.basename(file, '.yml'); // ==> UnitConfigName
+  let filePath = path.join(botwData, 'ActorLink', file);
+  let doc = readYAML(filePath);
+  let tableName = getDropTableNameFromActorLinkFile(doc);
+  if (tableName) {
+    lootTables[actorName] = tableName;
+  }
+  let tags = getTagsFromActorLinkFile(doc);
+  if (tags) {
+    itemTags[actorName] = tags;
+  }
+});
+let dropData = readDropTables(lootTables);
 
 const db = sqlite3('map.db.tmp');
 db.pragma('journal_mode = WAL');
@@ -159,7 +170,8 @@ db.exec(`
    ui_drop TEXT,
    ui_equip TEXT,
    messageid TEXT,
-   region TEXT NOT NULL
+   region TEXT NOT NULL,
+   field_area INTEGER
   );
 `);
 
@@ -170,13 +182,19 @@ db.exec(`
      data JSON
   );
 `);
+db.exec(`
+   CREATE TABLE tags (
+     actor_name TEXT NOT NULL,
+     tag text not null
+  );
+`);
 
 
 
 const insertObj = db.prepare(`INSERT INTO objs
-  (map_type, map_name, map_static, gen_group, hash_id, unit_config_name, ui_name, data, one_hit_mode, last_boss_mode, hard_mode, disable_rankup_for_hard_mode, scale, sharp_weapon_judge_type, 'drop', equip, ui_drop, ui_equip, messageid, region)
+  (map_type, map_name, map_static, gen_group, hash_id, unit_config_name, ui_name, data, one_hit_mode, last_boss_mode, hard_mode, disable_rankup_for_hard_mode, scale, sharp_weapon_judge_type, 'drop', equip, ui_drop, ui_equip, messageid, region, field_area)
   VALUES
-  (@map_type, @map_name, @map_static, @gen_group, @hash_id, @unit_config_name, @ui_name, @data, @one_hit_mode, @last_boss_mode, @hard_mode, @disable_rankup_for_hard_mode, @scale, @sharp_weapon_judge_type, @drop, @equip, @ui_drop, @ui_equip, @messageid, @region)`);
+  (@map_type, @map_name, @map_static, @gen_group, @hash_id, @unit_config_name, @ui_name, @data, @one_hit_mode, @last_boss_mode, @hard_mode, @disable_rankup_for_hard_mode, @scale, @sharp_weapon_judge_type, @drop, @equip, @ui_drop, @ui_equip, @messageid, @region, @field_area)`);
 
 function getActorData(name: string) {
   const h = CRC32.str(name) >>> 0;
@@ -306,6 +324,7 @@ function processMap(pmap: PlacementMap, isStatic: boolean): void {
       ui_equip: params ? objGetUiEquipment(params) : null,
       messageid: params ? (params['MessageID'] || null) : null,
       region: pmap.type == 'MainField' ? towerNames[mapTower.getCurrentAreaNum(obj.data.Translate[0], obj.data.Translate[2])] : "",
+      field_area: pmap.type == 'MainField' ? fieldArea.getCurrentAreaNum(obj.data.Translate[0], obj.data.Translate[2]) : "",
     });
     hashIdToObjIdMap.set(obj.data.HashId, result.lastInsertRowid);
   }
@@ -344,8 +363,22 @@ function createDropTable() {
   });
 }
 
+function createTagsTable() {
+  let stmt = db.prepare(`INSERT INTO tags (actor_name, tag) VALUES (@actor_name, @tag)`);
+  Object.keys(itemTags).forEach((actor_name: string) => {
+    let tags = itemTags[actor_name];
+    tags.forEach(tag => {
+      let result = stmt.run({
+        actor_name: actor_name,
+        tag: tag,
+      });
+    });
+  });
+}
+
 console.log('creating drop data table...');
 db.transaction(() => createDropTable())();
+db.transaction(() => createTagsTable())();
 
 function createIndexes() {
   db.exec(`
@@ -354,6 +387,7 @@ function createIndexes() {
     CREATE INDEX objs_hash_id ON objs (hash_id);
     CREATE INDEX objs_gen_group ON objs (gen_group);
     CREATE INDEX objs_unit_config_name ON objs (unit_config_name);
+    CREATE INDEX tags_actor_name ON tags (actor_name);
   `);
 }
 console.log('creating indexes...');
