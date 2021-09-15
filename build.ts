@@ -124,26 +124,31 @@ function readDropTables(lootTables: { [key: string]: string }) {
     });
   return data;
 }
+function readYAMLData(): [any[], { [key: string]: string[] }] {
+  let itemTags: { [key: string]: string[] } = {};
+  let lootTables: { [key: string]: string } = {};
 
-let itemTags: { [key: string]: string[] } = {};
-let lootTables: { [key: string]: string } = {};
+  let dirPath = path.join(botwData, 'ActorLink');
+  let files = fs.readdirSync(dirPath);
+  files.forEach(file => {
+    let actorName = path.basename(file, '.yml'); // ==> UnitConfigName
+    let filePath = path.join(botwData, 'ActorLink', file);
+    let doc = readYAML(filePath);
+    let tableName = getDropTableNameFromActorLinkFile(doc);
+    if (tableName) {
+      lootTables[actorName] = tableName;
+    }
+    let tags = getTagsFromActorLinkFile(doc);
+    if (tags) {
+      itemTags[actorName] = tags;
+    }
+  });
 
-let dirPath = path.join(botwData, 'ActorLink');
-let files = fs.readdirSync(dirPath);
-files.forEach(file => {
-  let actorName = path.basename(file, '.yml'); // ==> UnitConfigName
-  let filePath = path.join(botwData, 'ActorLink', file);
-  let doc = readYAML(filePath);
-  let tableName = getDropTableNameFromActorLinkFile(doc);
-  if (tableName) {
-    lootTables[actorName] = tableName;
-  }
-  let tags = getTagsFromActorLinkFile(doc);
-  if (tags) {
-    itemTags[actorName] = tags;
-  }
-});
-let dropData = readDropTables(lootTables);
+  let dropData: any[] = readDropTables(lootTables);
+  return [dropData, itemTags];
+}
+
+let [dropData, itemTags] = readYAMLData();
 
 const db = sqlite3('map.db.tmp');
 db.pragma('journal_mode = WAL');
@@ -328,7 +333,7 @@ function processMap(pmap: PlacementMap, isStatic: boolean): void {
       ui_equip: params ? objGetUiEquipment(params) : null,
       messageid: params ? (params['MessageID'] || null) : null,
       region: pmap.type == 'MainField' ? towerNames[mapTower.getCurrentAreaNum(obj.data.Translate[0], obj.data.Translate[2])] : "",
-      field_area: area >= 0 ? area : "",
+      field_area: area >= 0 ? area : null,
       spawns_with_lotm: lotm ? 1 : 0,
     });
     hashIdToObjIdMap.set(obj.data.HashId, result.lastInsertRowid);
