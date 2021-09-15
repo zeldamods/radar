@@ -171,7 +171,8 @@ db.exec(`
    ui_equip TEXT,
    messageid TEXT,
    region TEXT NOT NULL,
-   field_area INTEGER
+   field_area INTEGER,
+   spawns_with_lotm BOOL
   );
 `);
 
@@ -182,19 +183,12 @@ db.exec(`
      data JSON
   );
 `);
-db.exec(`
-   CREATE TABLE tags (
-     actor_name TEXT NOT NULL,
-     tag text not null
-  );
-`);
-
 
 
 const insertObj = db.prepare(`INSERT INTO objs
-  (map_type, map_name, map_static, gen_group, hash_id, unit_config_name, ui_name, data, one_hit_mode, last_boss_mode, hard_mode, disable_rankup_for_hard_mode, scale, sharp_weapon_judge_type, 'drop', equip, ui_drop, ui_equip, messageid, region, field_area)
+  (map_type, map_name, map_static, gen_group, hash_id, unit_config_name, ui_name, data, one_hit_mode, last_boss_mode, hard_mode, disable_rankup_for_hard_mode, scale, sharp_weapon_judge_type, 'drop', equip, ui_drop, ui_equip, messageid, region, field_area, spawns_with_lotm)
   VALUES
-  (@map_type, @map_name, @map_static, @gen_group, @hash_id, @unit_config_name, @ui_name, @data, @one_hit_mode, @last_boss_mode, @hard_mode, @disable_rankup_for_hard_mode, @scale, @sharp_weapon_judge_type, @drop, @equip, @ui_drop, @ui_equip, @messageid, @region, @field_area)`);
+  (@map_type, @map_name, @map_static, @gen_group, @hash_id, @unit_config_name, @ui_name, @data, @one_hit_mode, @last_boss_mode, @hard_mode, @disable_rankup_for_hard_mode, @scale, @sharp_weapon_judge_type, @drop, @equip, @ui_drop, @ui_equip, @messageid, @region, @field_area, @spawns_with_lotm)`);
 
 function getActorData(name: string) {
   const h = CRC32.str(name) >>> 0;
@@ -303,6 +297,16 @@ function processMap(pmap: PlacementMap, isStatic: boolean): void {
     if (!obj.data.UnitConfigName.startsWith('Weapon_') && !obj.data.UnitConfigName.startsWith('Enemy_'))
       scale = null;
 
+    let area = -1;
+    if (pmap.type == 'MainField') {
+      area = fieldArea.getCurrentAreaNum(obj.data.Translate[0], obj.data.Translate[2]);
+    }
+    let lotm = false;
+    let objTags = itemTags[obj.data.UnitConfigName];
+    if (area == 64 && objTags) {
+      lotm = objTags.includes('UnderGodForest');
+    }
+
     const result = insertObj.run({
       map_type: pmap.type,
       map_name: pmap.name,
@@ -324,7 +328,8 @@ function processMap(pmap: PlacementMap, isStatic: boolean): void {
       ui_equip: params ? objGetUiEquipment(params) : null,
       messageid: params ? (params['MessageID'] || null) : null,
       region: pmap.type == 'MainField' ? towerNames[mapTower.getCurrentAreaNum(obj.data.Translate[0], obj.data.Translate[2])] : "",
-      field_area: pmap.type == 'MainField' ? fieldArea.getCurrentAreaNum(obj.data.Translate[0], obj.data.Translate[2]) : "",
+      field_area: area >= 0 ? area : "",
+      spawns_with_lotm: lotm ? 1 : 0,
     });
     hashIdToObjIdMap.set(obj.data.HashId, result.lastInsertRowid);
   }
@@ -363,22 +368,8 @@ function createDropTable() {
   });
 }
 
-function createTagsTable() {
-  let stmt = db.prepare(`INSERT INTO tags (actor_name, tag) VALUES (@actor_name, @tag)`);
-  Object.keys(itemTags).forEach((actor_name: string) => {
-    let tags = itemTags[actor_name];
-    tags.forEach(tag => {
-      let result = stmt.run({
-        actor_name: actor_name,
-        tag: tag,
-      });
-    });
-  });
-}
-
 console.log('creating drop data table...');
 db.transaction(() => createDropTable())();
-db.transaction(() => createTagsTable())();
 
 function createIndexes() {
   db.exec(`
@@ -387,7 +378,6 @@ function createIndexes() {
     CREATE INDEX objs_hash_id ON objs (hash_id);
     CREATE INDEX objs_gen_group ON objs (gen_group);
     CREATE INDEX objs_unit_config_name ON objs (unit_config_name);
-    CREATE INDEX tags_actor_name ON tags (actor_name);
   `);
 }
 console.log('creating indexes...');
@@ -395,10 +385,10 @@ createIndexes();
 
 function createFts() {
   db.exec(`
-    CREATE VIRTUAL TABLE objs_fts USING fts5(content="", map, actor, name, data, 'drop', equip, onehit, lastboss, hard, no_rankup, scale, bonus, static, region);
+    CREATE VIRTUAL TABLE objs_fts USING fts5(content="", map, actor, name, data, 'drop', equip, onehit, lastboss, hard, no_rankup, scale, bonus, static, region, fieldarea, lotm);
 
-    INSERT INTO objs_fts(rowid, map, actor, name, data, 'drop', equip, onehit, lastboss, hard, no_rankup, scale, bonus, static, region)
-    SELECT objid, map_type||'/'||map_name, unit_config_name, ui_name, data, ui_drop, ui_equip, one_hit_mode, last_boss_mode, hard_mode, disable_rankup_for_hard_mode, scale, sharp_weapon_judge_type, map_static, region FROM objs;
+    INSERT INTO objs_fts(rowid, map, actor, name, data, 'drop', equip, onehit, lastboss, hard, no_rankup, scale, bonus, static, region, fieldarea, lotm)
+    SELECT objid, map_type||'/'||map_name, unit_config_name, ui_name, data, ui_drop, ui_equip, one_hit_mode, last_boss_mode, hard_mode, disable_rankup_for_hard_mode, scale, sharp_weapon_judge_type, map_static, region, field_area, spawns_with_lotm FROM objs;
   `);
 }
 console.log('creating FTS tables...');
