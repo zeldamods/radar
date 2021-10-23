@@ -136,7 +136,7 @@ let names: any = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'content', 
 
 // These names are not in names.json
 names['Animal_Insect_EP'] = 'Sunset Firefly?';
-names['BrokenSnowBall'] = 'Broken Snow Ball';
+names['BrokenSnowBall'] = 'Broken SnowBall';
 
 // Create [areaNumber] = areaData 
 let ndata: any = {};
