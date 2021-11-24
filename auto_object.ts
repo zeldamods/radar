@@ -12,7 +12,7 @@ let argv = parseArgs(process.argv);
 
 if (!argv.a) {
   console.log("Error: Must specify a path to directory with ActorLink YAML files");
-  console.log("       e.g. % ts-node build.ts -a ../botw/")
+  console.log("       e.g. % ts-node auto_objects.ts -a ../botw/Actor")
   console.log("       YAML data files are available from https://github.com/leoetlino/botw");
   process.exit(1);
 }
@@ -106,10 +106,9 @@ function getAutoPlacements(stat: any, atype: string) {
       let shape: string = area.Shape;
       let num: number = fieldArea.getCurrentAreaNum(x, z);
 
-      parts = parts.sort((a: any, b: any) => b.num - a.num);
-      parts = parts.map((item: any) => `${real_name(item.name)}: ${item.num} %`);
+      parts = parts.map((item: any) => `- ${real_name(item.name)}: ${item.num}`);
 
-      let key = `${atype} RNG<br/>${parts.join('<br/>')}<br/>Field Map Area ${num}<br/>#${n}`;
+      let key = `${atype}<br/>${parts.join('<br/>')}<br/>Field Map Area: ${num}<span style="display:none">${n}</span>`;
       if (atype == "Safe") {
         key = `${atype} #${n}`;
       }
@@ -123,19 +122,22 @@ function getAutoPlacements(stat: any, atype: string) {
       out[key] = geom;
     });
   let filename = `Auto${atype}.json`;
-  console.log(`Writing ${filename} ...`);
+  console.log(`Writing ${filename} ... ${Object.keys(out).length}`);
   fs.writeFileSync(filename, JSON.stringify(out), 'utf8');
 }
 
 
 // Read in FieldMapArea, AreaData, Static.mubin, and names.json
+// - stat.NonAutoPlacement contains Areas (Map/MainField/Static.mubin.yml)
+// - fieldArea contains the mapping from location to fieldAreaNum (content/ecosystem/FieldMapArea.beco)
+// - data contains the Item Probabilities for Spawning (Ecosystem/AreaData.yml)
 const fieldArea = new beco.Beco(path.join(util.APP_ROOT, 'content', 'ecosystem', 'FieldMapArea.beco'));
 let data = readYAML(path.join(botwData, '..', 'Ecosystem', 'AreaData.yml'));
 let stat = readYAML(path.join(botwData, '..', 'Map', 'MainField', 'Static.mubin.yml'));
 let names: any = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'content', 'names.json'), 'utf8'));
 
 // These names are not in names.json
-names['Animal_Insect_EP'] = 'Sunset Firefly?';
+names['Animal_Insect_EP'] = 'Sunset Firefly';
 names['BrokenSnowBall'] = 'Broken SnowBall';
 
 // Create [areaNumber] = areaData 
