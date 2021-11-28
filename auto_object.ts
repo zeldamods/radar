@@ -106,9 +106,9 @@ function getAutoPlacements(stat: any, atype: string) {
       let shape: string = area.Shape;
       let num: number = fieldArea.getCurrentAreaNum(x, z);
 
-      parts = parts.map((item: any) => `- ${real_name(item.name)}: ${item.num}`);
+      parts.forEach((item: any) => { item.real_name = real_name(item.name); });
 
-      let key = `${atype}<br/>${parts.join('<br/>')}<br/>Field Map Area: ${num}<span style="display:none">${n}</span>`;
+      let key = `${atype}-${n}`;
       if (atype == "Safe") {
         key = `${atype} #${n}`;
       }
@@ -118,6 +118,9 @@ function getAutoPlacements(stat: any, atype: string) {
         scale: [area.Scale.X, area.Scale.Y, area.Scale.Z],
         rotate: [0, angle, 0],
         color: color,
+        field_map_area: num,
+        type: atype,
+        items: parts,
       };
       out[key] = geom;
     });
