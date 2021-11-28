@@ -12,7 +12,7 @@ let argv = parseArgs(process.argv);
 
 if (!argv.a) {
   console.log("Error: Must specify a path to directory with ActorLink YAML files");
-  console.log("       e.g. % ts-node auto_objects.ts -a ../botw/Actor")
+  console.log("       e.g. % ts-node auto_object.ts -a ../botw/Actor")
   console.log("       YAML data files are available from https://github.com/leoetlino/botw");
   process.exit(1);
 }
@@ -108,10 +108,6 @@ function getAutoPlacements(stat: any, atype: string) {
 
       parts.forEach((item: any) => { item.real_name = real_name(item.name); });
 
-      let key = `${atype}-${n}`;
-      if (atype == "Safe") {
-        key = `${atype} #${n}`;
-      }
       let geom: any = {
         shape: shape,
         loc: [area.Translate.X, area.Translate.Y, area.Translate.Z],
@@ -122,7 +118,7 @@ function getAutoPlacements(stat: any, atype: string) {
         type: atype,
         items: parts,
       };
-      out[key] = geom;
+      out[n] = geom;
     });
   let filename = `Auto${atype}.json`;
   console.log(`Writing ${filename} ... ${Object.keys(out).length}`);
