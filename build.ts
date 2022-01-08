@@ -287,7 +287,7 @@ function objGetUiEquipment(params: any) {
   return objGetEquipment(params).map(getUiName).join(', ');
 }
 
-function has_lift_rock(group: any[]) {
+function hasLiftRock(group: any[]) {
   return group.map(objGetUiName)
     .some(name => name.includes("LiftRock") && !name.includes("Korok"));
 }
@@ -309,14 +309,14 @@ function korokGetType(group: any[], obj: any): string {
   let names: string[] = group.map(objGetUiName);
   names.sort();
 
-  if (has_lift_rock(group)) {
+  if (hasLiftRock(group)) {
     switch (len) {
       case 7: return "Rock Lift"; // 174
       case 9:
-        return "Rock Lift (Rock Pile)"; // 41
+        return "Rock Lift (Rock Pile)"; // 40
       case 11:
         if (names.includes("Treasure Chest")) {
-          return "Rock Lift (Rock Pile)"; // ^
+          return "Rock Lift (Rock Pile)"; // 1
         }
         if (names.includes("Obj_BoardIron_C_01")) {
           return "Rock Lift (Door)"; // 8
@@ -377,9 +377,9 @@ function korokGetType(group: any[], obj: any): string {
     }
     return "Stationary Lights"; // 46
   }
-  for (let i = 0; i < names.length; i++) {
-    if (names[i] in identifiers) {
-      return identifiers[names[i]];
+  for (const name of names) {
+    if (name in identifiers) {
+      return identifiers[name];
     }
   }
   if (names.includes("Obj_KorokPot_A_01")) {
@@ -403,10 +403,10 @@ function korokGetType(group: any[], obj: any): string {
     return "Roll a Boulder"; // 1 Must preceed Push Boulder into Hole
   }
   if (names.includes("FldObj_PushRock_A_M_01")) {
-    return "Roll a Boulder"; //"Push Boulder into Hole";
+    return "Roll a Boulder";
   }
   if (names.includes("FldObj_PushRock_Korok")) {
-    return "Roll a Boulder";// "Push Boulder into Hole";
+    return "Roll a Boulder";
   }
   if (names.includes("Obj_KorokIronRock_A_01")) {
     return "Ball and Chain";
@@ -433,7 +433,7 @@ function korokGetType(group: any[], obj: any): string {
   if (arrayEquals(names, ['ActorObserverTag', 'ActorObserverTag', 'Area', 'Area', 'Korok',
     'KorokAnswerResponce', 'KorokAnswerResponce', 'LinkTagAnd', 'LinkTagAnd', 'LinkTagAnd',
     'LinkTagOr', 'SwitchTimeLag'])) {
-    return "Ball and Chain"; //"Put Rocks in Hollow Stumps"; // 1
+    return "Ball and Chain"; // 1
   }
   if (arrayEquals(names, ['ActorObserverTag', 'ActorObserverTag', 'ActorObserverTag', 'Area',
     'Area', 'Area', 'Korok', 'LinkTagAnd', 'LinkTagAnd', 'LinkTagOr', 'SwitchTimeLag'])) {
@@ -518,7 +518,7 @@ function processMap(pmap: PlacementMap, isStatic: boolean): void {
       field_area: area >= 0 ? area : null,
       spawns_with_lotm: lotm ? 1 : 0,
       korok_id: korok ? korok : null,
-      korok_type: korok_type ? korok_type : null,
+      korok_type: korok_type,
     });
     hashIdToObjIdMap.set(obj.data.HashId, result.lastInsertRowid);
   }
@@ -610,7 +610,7 @@ function checkKorokTypes() {
     "Remove Luminous Stone": 1,     //
   };
   // Check the number of koroks in each category
-  let count = 0;
+  let expectedNum = 0;
   const stmt = db.prepare("select count(korok_type) as num from objs where korok_type = @kt");
   for (const [key, num] of Object.entries(counts)) {
     const res = stmt.all({ kt: key });
@@ -624,11 +624,11 @@ function checkKorokTypes() {
       console.error(`Number of korok types mismatch: ${key}: expected ${num} returned ${out}`);
       process.exit(1);
     }
-    count += out;
+    expectedNum += out;
   }
   // Check we have 900 koroks
-  if (count != 900) {
-    console.error(`Error: Expected 900 koroks, got ${count}`);
+  if (expectedNum != 900) {
+    console.error(`Error: Expected 900 koroks, got ${expectedNum}`);
     process.exit(1);
   }
   // Checking for unknown korok types
