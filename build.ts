@@ -34,6 +34,8 @@ const korok_data: [any] = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'k
 let korok_ids: any = {};
 korok_data.forEach(k => { korok_ids[k.hash_id] = k; });
 
+const polys = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, "castle.json"), 'utf-8'));
+
 const mapTower = new beco.Beco(path.join(util.APP_ROOT, 'content', 'ecosystem', 'MapTower.beco'));
 // Tower Names taken from Messages/Msg_USen.product.sarc/StaticMsg/LocationMarker.msyt Tower01 - Tower15
 const towerNames = ["Hebra", "Tabantha", "Gerudo", "Wasteland", "Woodland",
@@ -183,7 +185,8 @@ db.exec(`
    field_area INTEGER,
    spawns_with_lotm BOOL,
    korok_id TEXT,
-   korok_type TEXT
+   korok_type TEXT,
+   location TEXT
   );
 `);
 
@@ -197,9 +200,9 @@ db.exec(`
 
 
 const insertObj = db.prepare(`INSERT INTO objs
-  (map_type, map_name, map_static, gen_group, hash_id, unit_config_name, ui_name, data, one_hit_mode, last_boss_mode, hard_mode, disable_rankup_for_hard_mode, scale, sharp_weapon_judge_type, 'drop', equip, ui_drop, ui_equip, messageid, region, field_area, spawns_with_lotm, korok_id, korok_type)
+  (map_type, map_name, map_static, gen_group, hash_id, unit_config_name, ui_name, data, one_hit_mode, last_boss_mode, hard_mode, disable_rankup_for_hard_mode, scale, sharp_weapon_judge_type, 'drop', equip, ui_drop, ui_equip, messageid, region, field_area, spawns_with_lotm, korok_id, korok_type, location)
   VALUES
-  (@map_type, @map_name, @map_static, @gen_group, @hash_id, @unit_config_name, @ui_name, @data, @one_hit_mode, @last_boss_mode, @hard_mode, @disable_rankup_for_hard_mode, @scale, @sharp_weapon_judge_type, @drop, @equip, @ui_drop, @ui_equip, @messageid, @region, @field_area, @spawns_with_lotm, @korok_id, @korok_type)`);
+  (@map_type, @map_name, @map_static, @gen_group, @hash_id, @unit_config_name, @ui_name, @data, @one_hit_mode, @last_boss_mode, @hard_mode, @disable_rankup_for_hard_mode, @scale, @sharp_weapon_judge_type, @drop, @equip, @ui_drop, @ui_equip, @messageid, @region, @field_area, @spawns_with_lotm, @korok_id, @korok_type, @location)`);
 
 function getActorData(name: string) {
   const h = CRC32.str(name) >>> 0;
@@ -453,6 +456,100 @@ function korokGetType(group: any[], obj: any): string {
   process.exit(1);
 }
 
+// Check is a point (x,y,z) is contained within a polygon's bounding box
+//   Bounding box is defined in properties (xmin, xmax, zmin, zmax)
+function poly_point_in_bb(poly: any, pt: any): boolean {
+  let prop = poly.properties;
+  return ((prop.xmin && pt[0] >= prop.xmin) ||
+    (prop.zmin && pt[2] >= prop.zmin) ||
+    (prop.xmax && pt[0] <= prop.xmax) ||
+    (prop.zmax && pt[2] <= prop.zmax));
+}
+
+// Check is a point (x,y,z) is contained within a polygon
+//   The bounding box is first checked then the polygon is checked
+function poly_inside(poly: any, pt: any): boolean {
+  return poly_point_in_bb(poly, pt) && inside(pt, poly.geometry.coordinates[0]);
+}
+
+// Check if a point is within a polygon (pts)
+//  https://en.wikipedia.org/wiki/Point_in_polygon#Ray_casting_algorithm
+function inside(point: any, pts: any) {
+  let n = pts.length;
+  let xp = point[0];
+  let yp = point[2];
+  let xv: any = pts.map((p: any) => p[0]);
+  let yv: any = pts.map((p: any) => p[1]);
+
+  if (Math.abs(xv[0] - xv[n - 1]) < 1e-7 && Math.abs(yv[0] - yv[n - 1]) < 1e-7) {
+    n -= 1;
+  }
+  //console.log(xp, yp);
+  let x2 = xv[n - 1]
+  let y2 = yv[n - 1]
+  let nleft = 0
+
+  let x1 = x2;
+  let y1 = y2;
+
+  // Loop over line segments (assuming the polygon is closed)
+  for (let i = 0; i < n; i++) {
+    x1 = x2
+    y1 = y2
+    x2 = xv[i]
+    y2 = yv[i]
+    if (y1 >= yp && y2 >= yp) {
+      continue;
+    }
+    if (y1 < yp && y2 < yp) {
+      continue;
+    }
+    if (y1 == y2) {
+      if (x1 >= xp && x2 >= xp) {
+        continue;
+      }
+      if (x1 < xp && x2 < xp) {
+        continue;
+      }
+      nleft += 1;
+    } else {
+      let xi = x1 + (yp - y1) * (x2 - x1) / (y2 - y1);
+      if (xi == xp) {
+        nleft = 1;
+        break;
+      }
+      if (xi > xp) {
+        nleft += 1;
+      }
+    }
+  }
+  let xin = nleft % 2;
+  return xin == 1;
+}
+
+// Test all polygons (polys) if a point lies in any
+//    polygons are assumed in GeoJSON format and have:
+//      - a bounding box (xmin,ymin,zmin,xmax,ymax,zmax)
+//      - a priority where overlapping polygons with higher priority are choosen
+//    Returns the found polygon or null in the case of no match
+function find_polygon(p: any, polys: any) {
+  let found = null;
+  for (let j = 0; j < polys.features.length; j++) {
+    const poly = polys.features[j];
+    if ((poly.properties.ymin && p[1] < poly.properties.ymin) ||
+      (poly.properties.ymax && p[1] > poly.properties.ymax)) {
+      continue;
+    }
+    if (found && poly.properties.priority < found.properties.priority) {
+      continue;
+    }
+    if (poly_inside(poly, p)) {
+      //console.log(`${p[0]} ${p[2]} ${j} ${obj.HashId} ${obj.UnitConfigName} ${poly.properties.name}`);
+      found = polys.features[j];
+    }
+  }
+  return found;
+}
 
 function processMap(pmap: PlacementMap, isStatic: boolean): void {
   process.stdout.write(`processing ${pmap.type}/${pmap.name} (static: ${isStatic})`);
@@ -494,6 +591,12 @@ function processMap(pmap: PlacementMap, isStatic: boolean): void {
       korok_type = korokGetType(group, obj);
     }
 
+    let location = null;
+    let poly = find_polygon(obj.data.Translate, polys);
+    if (poly) {
+      location = poly.properties.name;
+    }
+
     const result = insertObj.run({
       map_type: pmap.type,
       map_name: pmap.name,
@@ -519,6 +622,7 @@ function processMap(pmap: PlacementMap, isStatic: boolean): void {
       spawns_with_lotm: lotm ? 1 : 0,
       korok_id: korok ? korok : null,
       korok_type: korok_type,
+      location: location,
     });
     hashIdToObjIdMap.set(obj.data.HashId, result.lastInsertRowid);
   }
@@ -645,10 +749,10 @@ checkKorokTypes();
 
 function createFts() {
   db.exec(`
-    CREATE VIRTUAL TABLE objs_fts USING fts5(content="", map, actor, name, data, 'drop', equip, onehit, lastboss, hard, no_rankup, scale, bonus, static, region, fieldarea, lotm, korok, korok_type);
+    CREATE VIRTUAL TABLE objs_fts USING fts5(content="", map, actor, name, data, 'drop', equip, onehit, lastboss, hard, no_rankup, scale, bonus, static, region, fieldarea, lotm, korok, korok_type, location);
 
-    INSERT INTO objs_fts(rowid, map, actor, name, data, 'drop', equip, onehit, lastboss, hard, no_rankup, scale, bonus, static, region, fieldarea, lotm, korok, korok_type)
-    SELECT objid, map_type || '/' || map_name, unit_config_name, ui_name, data, ui_drop, ui_equip, one_hit_mode, last_boss_mode, hard_mode, disable_rankup_for_hard_mode, scale, sharp_weapon_judge_type, map_static, region, field_area, spawns_with_lotm, korok_id, korok_type FROM objs;
+    INSERT INTO objs_fts(rowid, map, actor, name, data, 'drop', equip, onehit, lastboss, hard, no_rankup, scale, bonus, static, region, fieldarea, lotm, korok, korok_type, location)
+    SELECT objid, map_type || '/' || map_name, unit_config_name, ui_name, data, ui_drop, ui_equip, one_hit_mode, last_boss_mode, hard_mode, disable_rankup_for_hard_mode, scale, sharp_weapon_judge_type, map_static, region, field_area, spawns_with_lotm, korok_id, korok_type, location FROM objs;
   `);
 }
 console.log('creating FTS tables...');
