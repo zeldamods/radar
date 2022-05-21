@@ -458,7 +458,7 @@ function korokGetType(group: any[], obj: any): string {
 
 // Check is a point (x,y,z) is contained within a polygon's bounding box
 //   Bounding box is defined in properties (xmin, xmax, zmin, zmax)
-function poly_point_in_bb(poly: any, pt: any): boolean {
+function isPointInsideBoundingBox(poly: any, pt: any): boolean {
   let prop = poly.properties;
   return ((prop.xmin && pt[0] >= prop.xmin) ||
     (prop.zmin && pt[2] >= prop.zmin) ||
@@ -468,13 +468,13 @@ function poly_point_in_bb(poly: any, pt: any): boolean {
 
 // Check is a point (x,y,z) is contained within a polygon
 //   The bounding box is first checked then the polygon is checked
-function poly_inside(poly: any, pt: any): boolean {
-  return poly_point_in_bb(poly, pt) && inside(pt, poly.geometry.coordinates[0]);
+function isPointInsidePolygon(poly: any, pt: any): boolean {
+  return isPointInsideBoundingBox(poly, pt) && isPointInsidePolygonRCA(pt, poly.geometry.coordinates[0]);
 }
 
 // Check if a point is within a polygon (pts)
 //  https://en.wikipedia.org/wiki/Point_in_polygon#Ray_casting_algorithm
-function inside(point: any, pts: any) {
+function isPointInsidePolygonRCA(point: any, pts: any) {
   let n = pts.length;
   let xp = point[0];
   let yp = point[2];
@@ -484,7 +484,6 @@ function inside(point: any, pts: any) {
   if (Math.abs(xv[0] - xv[n - 1]) < 1e-7 && Math.abs(yv[0] - yv[n - 1]) < 1e-7) {
     n -= 1;
   }
-  //console.log(xp, yp);
   let x2 = xv[n - 1]
   let y2 = yv[n - 1]
   let nleft = 0
@@ -528,11 +527,11 @@ function inside(point: any, pts: any) {
 }
 
 // Test all polygons (polys) if a point lies in any
-//    polygons are assumed in GeoJSON format and have:
+//    polygons are assumed to be in GeoJSON format and have:
 //      - a bounding box (xmin,ymin,zmin,xmax,ymax,zmax)
-//      - a priority where overlapping polygons with higher priority are choosen
+//      - a priority where overlapping polygons with higher priority are chosen
 //    Returns the found polygon or null in the case of no match
-function find_polygon(p: any, polys: any) {
+function findPolygon(p: any, polys: any) {
   let found = null;
   for (let j = 0; j < polys.features.length; j++) {
     const poly = polys.features[j];
@@ -543,8 +542,7 @@ function find_polygon(p: any, polys: any) {
     if (found && poly.properties.priority < found.properties.priority) {
       continue;
     }
-    if (poly_inside(poly, p)) {
-      //console.log(`${p[0]} ${p[2]} ${j} ${obj.HashId} ${obj.UnitConfigName} ${poly.properties.name}`);
+    if (isPointInsidePolygon(poly, p)) {
       found = polys.features[j];
     }
   }
@@ -592,7 +590,7 @@ function processMap(pmap: PlacementMap, isStatic: boolean): void {
     }
 
     let location = null;
-    let poly = find_polygon(obj.data.Translate, polys);
+    let poly = findPolygon(obj.data.Translate, polys);
     if (poly) {
       location = poly.properties.name;
     }
