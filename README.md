@@ -6,3 +6,8 @@ Run build.ts to generate a map database before starting the server for the first
     ts-node build.ts -a ../botw/Actor
 
 This assumes the `botw` directory contains the YAML data files from https://github.com/leoetlino/botw
+
+    ts-node build.ts -a ../botw/Actor -t ../totk/yaml/files/
+
+This assumes the `totk` yaml files are in `../totk/yaml/files`
+

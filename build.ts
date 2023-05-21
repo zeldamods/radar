@@ -21,7 +21,7 @@ if (!argv.a) {
   process.exit(1);
 }
 const botwData = argv.a;
-
+const totkData = (argv.t) ? argv.t : null;
 
 const actorinfodata = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'content', 'ActorInfo.product.json'), 'utf8'));
 
@@ -667,6 +667,80 @@ function processMaps() {
   }
 }
 db.transaction(() => processMaps())();
+
+
+function processTotK() {
+  // Initial implmentation of inserting TotK data
+
+  if (!totkData) {
+    return;
+  }
+  const MAP_PATH = totkData;
+  for (const name of fs.readdirSync(MAP_PATH)) {
+    if (!name.endsWith('.bcett.json')) {
+      continue
+    }
+    const fileName = path.join(MAP_PATH, name);
+    let data: any = JSON.parse(fs.readFileSync(fileName, 'utf8'));
+    const is_static = name.includes('Static');
+    const map_name = name.slice(0, 3).toString();
+    console.log(`processing ${name} (${map_name}; static: ${is_static})`)
+    for (const obj of data.Actors) {
+      let data: any = {};
+      data.Translate = obj.Translate;
+      data.UnitConfigName = obj.Gyaml;
+      data['!Parameters'] = obj.Phive;
+      let drop = [];
+      let equip = [];
+      if (obj.Dynamic) {
+        let dyn = obj.Dynamic;
+        if (dyn.Drop__DropActor) {
+          drop.push(1) // 1 - Actor, 2 - Drop table
+          drop.push(obj.Dynamic.Drop__DropActor)
+        }
+        if (dyn.Drop__DropTable) {
+          drop.push(2)
+          drop.push(obj.Dynamic.Dtop__DropTable);
+        }
+        for (const eq of ["Accessory1", "Attachment_Arrow", "Bow"]) {
+          const key = `EquipmentUser_${eq}`;
+          if (dyn[key]) {
+            equip.push(dyn[key]);
+          }
+        }
+      }
+      const result = insertObj.run({
+        map_type: 'Totk',
+        map_name: map_name,
+        map_static: (is_static) ? 1 : 0,
+        gen_group: null,
+        hash_id: obj.Hash,
+        unit_config_name: obj.Gyaml,
+        ui_name: obj.Gyaml, //objGetUiName(obj),
+        data: JSON.stringify(data),
+        one_hit_mode: 0,//(params && params.IsIchigekiActor) ? 1 : 0,
+        last_boss_mode: 0,//genGroupSkipped.get(obj.genGroupId) ? 0 : 1,
+        hard_mode: 0,//(params && params.IsHardModeActor) ? 1 : 0,
+        disable_rankup_for_hard_mode: 0,//(params && params.DisableRankUpForHardMode) ? 1 : 0,
+        scale: null,
+        sharp_weapon_judge_type: 0, //params ? params.SharpWeaponJudgeType : 0,
+        drop: (drop && drop.length > 0) ? JSON.stringify(drop) : null, //params ? JSON.stringify(objGetDrops(params)) : null,
+        equip: (equip && equip.length > 0) ? JSON.stringify(equip) : null, //params ? JSON.stringify(objGetEquipment(params)) : null,
+        ui_drop: null, //params ? objGetUiDrops(params) : null,
+        ui_equip: null, //params ? objGetUiEquipment(params) : null,
+        messageid: null, //params ? (params['MessageID'] || null) : null,
+        region: "", //pmap.type == 'MainField' ? towerNames[mapTower.getCurrentAreaNum(obj.data.Translate[0], obj.data.Translate[2])] : "",
+        field_area: null, //area >= 0 ? area : null,
+        spawns_with_lotm: 0, //lotm ? 1 : 0,
+        korok_id: null, // korok ? korok : null,
+        korok_type: null, // korok_type,
+        location: null, // location,
+      });
+    }
+  }
+}
+
+db.transaction(() => processTotK())();
 
 function createDropTable() {
   let stmt = db.prepare(`INSERT INTO drop_table (actor_name, name, data) VALUES (@actor_name, @name, @data)`);
