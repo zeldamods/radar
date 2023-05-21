@@ -74,8 +74,8 @@ function readYAML(filePath: string) {
   let doc: any = null;
   try {
     doc = yaml.load(fs.readFileSync(filePath, 'utf-8'), { schema: schema });
-  } catch (e) {
-    console.log(e);
+  } catch (e: any) {
+    console.log('Error', e);
     process.exit(1);
   }
   return doc;
