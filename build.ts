@@ -804,7 +804,7 @@ function checkKorokTypes() {
   // Check the number of koroks in each category
   let expectedNum = 0;
   const stmt = db.prepare("select count(korok_type) as num from objs where korok_type = @kt");
-  for (const [key, num] of Object.entries(counts)) {
+  for (const [key, num] of (Object.entries(counts) as [string, number][])) {
     const res = stmt.all({ kt: key });
 
     if (res.length != 1) {
