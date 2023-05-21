@@ -825,7 +825,7 @@ function checkKorokTypes() {
   }
   // Checking for unknown korok types
   const res = db.prepare("select distinct(korok_type) as name from objs where korok_type is not NULL").all();
-  const names = res.map(row => row.name);
+  const names = res.map((row: any) => row.name);
   if (names.some(name => !(name in counts))) {
     const ktypes = names.filter(name => !(name in counts));
     console.error(`Error: Unknown korok types: ${ktypes}`);

@@ -55,7 +55,7 @@ export class Beco {
     for (let i = 0; i < this.num_rows; i++) {
       let ioff = this.offsets[i];
       let ioff1 = this.offsets[i + 1];
-      let row = [];
+      let row: any = [];
       while (ioff < ioff1) {
         let data: number = dv.getUint16(ioff + 0, little);
         let length: number = dv.getUint16(ioff + 2, little);
