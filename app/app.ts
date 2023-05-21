@@ -157,7 +157,7 @@ function handleReqObjids(req: express.Request, res: express.Response) {
     map_type: mapType,
     map_name: mapName ? mapName : undefined,
     q,
-  }).map(x => x.objid));
+  }).map((x: any) => x.objid));
 }
 
 app.get('/objids/:map_type', handleReqObjids);
@@ -181,7 +181,8 @@ function handleReqDropTable(req: express.Request, res: express.Response) {
         actor_name = ? `);
       rows = stmt.all(actorName);
     }
-    rows = rows.reduce((acc, cur) => ({ ...acc, [cur.name]: JSON.parse(cur.data) }), {});
+    // @ts-ignore
+    rows = rows.reduce(([acc, cur]) => ({ ...acc, [cur.name]: JSON.parse(cur.data) }), {});
   }
   res.json(rows);
 }
