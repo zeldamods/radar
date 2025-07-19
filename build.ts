@@ -132,9 +132,11 @@ function readDropTables(lootTables: { [key: string]: string }) {
     });
   return data;
 }
-function readYAMLData(): [any[], { [key: string]: string[] }] {
+function readYAMLData(): [any[], { [key: string]: string[] }, { [key: string]: any }, { [key: string]: any }] {
   let itemTags: { [key: string]: string[] } = {};
   let lootTables: { [key: string]: string } = {};
+  let metaData: { [key: string]: any } = {};
+  let actorProfile: { [key: string]: any } = {};
 
   let dirPath = path.join(botwData, 'ActorLink');
   let files = fs.readdirSync(dirPath);
@@ -146,17 +148,25 @@ function readYAMLData(): [any[], { [key: string]: string[] }] {
     if (tableName) {
       lootTables[actorName] = tableName;
     }
+    actorProfile[actorName] = doc.param_root.objects.LinkTarget.ProfileUser
     let tags = getTagsFromActorLinkFile(doc);
     if (tags) {
       itemTags[actorName] = tags;
     }
-  });
+    try {
+      let meta = yaml.load(fs.readFileSync(path.join(botwData, 'ActorMeta', `${actorName}.yml`), 'utf-8'), { schema })
+      if (meta) {
+        metaData[actorName] = { boundingForTraverse: meta.boundingForTraverse, traverseDist: meta.traverseDist }
+      }
+    } catch (_) {
 
+    }
+  });
   let dropData: any[] = readDropTables(lootTables);
-  return [dropData, itemTags];
+  return [dropData, itemTags, metaData, actorProfile];
 }
 
-let [dropData, itemTags] = readYAMLData();
+let [dropData, itemTags, metaData, actorProfile] = readYAMLData();
 
 const db = sqlite3('map.db.tmp');
 db.pragma('journal_mode = WAL');
@@ -574,7 +584,7 @@ function processMap(pmap: PlacementMap, isStatic: boolean): void {
     genGroupSkipped.set(id, genGroup.some(o => !shouldSpawnObjForLastBossMode(o)));
 
   for (const obj of pmap.getObjs()) {
-    const params = obj.data['!Parameters'];
+    let params = obj.data['!Parameters'];
 
     let scale = params ? params.LevelSensorMode : 0;
     if (!obj.data.UnitConfigName.startsWith('Weapon_') && !obj.data.UnitConfigName.startsWith('Enemy_'))
@@ -606,6 +616,23 @@ function processMap(pmap: PlacementMap, isStatic: boolean): void {
     let poly = findPolygon(obj.data.Translate, polys);
     if (poly) {
       location = poly.properties.name;
+    }
+
+    if (obj.data.UnitConfigName in metaData) {
+      if (!(obj.data['!Parameters'])) {
+        // @ts-ignore
+        obj.data['!Parameters'] = {}
+        params = obj.data['!Parameters']
+      }
+      params.ActorMeta = metaData[obj.data.UnitConfigName]
+    }
+    if (obj.data.UnitConfigName in actorProfile) {
+      if (!(obj.data['!Parameters'])) {
+        // @ts-ignore
+        obj.data['!Parameters'] = {}
+        params = obj.data['!Parameters']
+      }
+      params.ProfileUser = actorProfile[obj.data.UnitConfigName]
     }
 
     const result = insertObj.run({
