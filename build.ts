@@ -45,6 +45,9 @@ const fieldArea = new beco.Beco(path.join(util.APP_ROOT, 'content', 'ecosystem',
 
 const locations: { [key: string]: string } = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'content', 'locations.json'), 'utf8'));
 
+const travelers: any = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'merchants.json'), 'utf-8'))
+const shops: any = JSON.parse(fs.readFileSync(path.join(util.APP_ROOT, 'shop_data.json'), 'utf-8'))
+
 // Create Special tags for YAML: !obj, !list, !io, !str64
 const objType = new yaml.Type('!obj', {
   kind: 'mapping', instanceOf: Object,
@@ -634,6 +637,14 @@ function processMap(pmap: PlacementMap, isStatic: boolean): void {
       }
       params.ProfileUser = actorProfile[obj.data.UnitConfigName]
     }
+    if (obj.data.UnitConfigName in shops.data) {
+      // @ts-ignore
+      obj.data.ShopData = shops.data[obj.data.UnitconfigName]
+    }
+    if (obj.data.UnitConfigName in shops.names) {
+      // @ts-ignore
+      obj.data.ShopName = shops.names[obj.data.UnitConfigName]
+    }
 
     const result = insertObj.run({
       map_type: pmap.type,
@@ -694,6 +705,44 @@ function processMaps() {
   }
 }
 db.transaction(() => processMaps())();
+
+function processTravelers() {
+  for (const obj of travelers) {
+    obj.data.ShopData = false
+    if (obj.UnitConfigName in shops.data) {
+      obj.data.ShopData = shops.data[obj.UnitConfigName]
+    }
+    const _result = insertObj.run({
+      map_type: obj.MapType,
+      map_name: obj.MapName,
+      map_static: 1,
+      gen_group: obj.GenGroupId,
+      hash_id: obj.HashId,
+      unit_config_name: obj.UnitConfigName,
+      ui_name: obj.UiName,
+      data: JSON.stringify(obj.data),
+      one_hit_mode: 0,
+      last_boss_mode: 0,
+      hard_mode: 0,
+      disable_rankup_for_hard_mode: 0,
+      scale: null,
+      sharp_weapon_judge_type: 0,
+      drop: null,
+      equip: null,
+      ui_drop: null,
+      ui_equip: null,
+      messageid: null,
+      region: "",
+      field_area: null,
+      spawns_with_lotm: 0,
+      korok_id: null,
+      korok_type: null,
+      location: null,
+    })
+  }
+}
+
+db.transaction(() => processTravelers())();
 
 function createDropTable() {
   let stmt = db.prepare(`INSERT INTO drop_table (actor_name, name, data) VALUES (@actor_name, @name, @data)`);
