@@ -1,1 +1,4546 @@
-[{"HashId": 2115870720, "Rotate": [0, 0, 0], "Translate": [-1467.8551025390625, 134.2485809326172, 1462.1895751953125], "UnitConfigName": "Npc_Road_001", "GenGroupId": 471514, "UiName": "Botrick", "MapType": "MainField", "MapName": "D-6", "data": {"Translate": [-1467.8551025390625, 134.2485809326172, 1462.1895751953125], "UnitConfigName": "Npc_Road_001", "HashId": 2115870720, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3355949282}, {"DefinitionName": "GuideRef", "DestUnitHashId": 165743140}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1767214228}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1540223276}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1558652921}, {"DefinitionName": "GuideRef", "DestUnitHashId": 422565113}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3355949282}, {"DefinitionName": "GuideRef", "DestUnitHashId": 165743140}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1767214228}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1540223276}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1558652921}, {"DefinitionName": "GuideRef", "DestUnitHashId": 422565113}]}, {"HashId": 2115870721, "Rotate": [0, 0, 0], "Translate": [1040.05810546875, 116.36934661865234, 1890.5], "UnitConfigName": "Npc_Road_002", "GenGroupId": 471514, "UiName": "Mezer", "MapType": "MainField", "MapName": "G-6", "data": {"Translate": [1040.05810546875, 116.36934661865234, 1890.5], "UnitConfigName": "Npc_Road_002", "HashId": 2115870721, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1789434527}, {"DefinitionName": "GuideRef", "DestUnitHashId": 721737972}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2569713605}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1543759970}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1694896436}, {"DefinitionName": "GuideRef", "DestUnitHashId": 874391461}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4136763761}, {"DefinitionName": "GuideRef", "DestUnitHashId": 147559759}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2961163211}, {"DefinitionName": "GuideRef", "DestUnitHashId": 509627114}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1789434527}, {"DefinitionName": "GuideRef", "DestUnitHashId": 721737972}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2569713605}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1543759970}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1694896436}, {"DefinitionName": "GuideRef", "DestUnitHashId": 874391461}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4136763761}, {"DefinitionName": "GuideRef", "DestUnitHashId": 147559759}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2961163211}, {"DefinitionName": "GuideRef", "DestUnitHashId": 509627114}]}, {"HashId": 2115870722, "Rotate": [0, 0, 0], "Translate": [878.9053955078125, 131.77862548828125, 177.08975219726562], "UnitConfigName": "Npc_Road_003", "GenGroupId": 471514, "UiName": "Rik", "MapType": "MainField", "MapName": "F-5", "data": {"Translate": [878.9053955078125, 131.77862548828125, 177.08975219726562], "UnitConfigName": "Npc_Road_003", "HashId": 2115870722, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 556821293}, {"DefinitionName": "GuideRef", "DestUnitHashId": 173983005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 636499016}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114880142}, {"DefinitionName": "GuideRef", "DestUnitHashId": 8566410}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4108291045}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3562990203}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1245182473}, {"DefinitionName": "GuideRef", "DestUnitHashId": 319548637}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2214982741}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1563715259}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3971510404}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3550997847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1780865559}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2534538496}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 556821293}, {"DefinitionName": "GuideRef", "DestUnitHashId": 173983005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 636499016}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114880142}, {"DefinitionName": "GuideRef", "DestUnitHashId": 8566410}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4108291045}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3562990203}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1245182473}, {"DefinitionName": "GuideRef", "DestUnitHashId": 319548637}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2214982741}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1563715259}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3971510404}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3550997847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1780865559}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2534538496}]}, {"HashId": 2115870723, "Rotate": [0, 0, 0], "Translate": [1770.138671875, 116.81322479248047, 1966.912841796875], "UnitConfigName": "Npc_Road_004", "GenGroupId": 471514, "UiName": "Agus", "MapType": "MainField", "MapName": "G-6", "data": {"Translate": [1770.138671875, 116.81322479248047, 1966.912841796875], "UnitConfigName": "Npc_Road_004", "HashId": 2115870723, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 2198282518}, {"DefinitionName": "GuideRef", "DestUnitHashId": 160919740}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1191727708}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3329736833}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3794892005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2147539057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3646180107}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4126111784}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1991802720}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014010508}, {"DefinitionName": "GuideRef", "DestUnitHashId": 601836639}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1694896436}, {"DefinitionName": "GuideRef", "DestUnitHashId": 147559759}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1668986272}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014912847}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 2198282518}, {"DefinitionName": "GuideRef", "DestUnitHashId": 160919740}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1191727708}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3329736833}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3794892005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2147539057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3646180107}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4126111784}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1991802720}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014010508}, {"DefinitionName": "GuideRef", "DestUnitHashId": 601836639}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1694896436}, {"DefinitionName": "GuideRef", "DestUnitHashId": 147559759}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1668986272}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014912847}]}, {"HashId": 2115870724, "Rotate": [0, 0, 0], "Translate": [-1575.9420166015625, 212.3748321533203, -1789.1634521484375], "UnitConfigName": "Npc_Road_005", "GenGroupId": 471514, "UiName": "Kanny", "MapType": "MainField", "MapName": "D-3", "data": {"Translate": [-1575.9420166015625, 212.3748321533203, -1789.1634521484375], "UnitConfigName": "Npc_Road_005", "HashId": 2115870724, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1115149561}, {"DefinitionName": "GuideRef", "DestUnitHashId": 8547658}, {"DefinitionName": "GuideRef", "DestUnitHashId": 570600847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1603542343}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2066577859}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1340659041}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3099837821}, {"DefinitionName": "GuideRef", "DestUnitHashId": 714343146}, {"DefinitionName": "GuideRef", "DestUnitHashId": 75634982}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3743544242}, {"DefinitionName": "GuideRef", "DestUnitHashId": 704555472}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2436233553}, {"DefinitionName": "GuideRef", "DestUnitHashId": 594103238}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3944984689}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4173891259}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1429591875}, {"DefinitionName": "GuideRef", "DestUnitHashId": 657845232}, {"DefinitionName": "GuideRef", "DestUnitHashId": 559322410}, {"DefinitionName": "GuideRef", "DestUnitHashId": 315592498}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3103162463}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1528788622}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3748032060}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3171934307}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1115149561}, {"DefinitionName": "GuideRef", "DestUnitHashId": 8547658}, {"DefinitionName": "GuideRef", "DestUnitHashId": 570600847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1603542343}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2066577859}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1340659041}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3099837821}, {"DefinitionName": "GuideRef", "DestUnitHashId": 714343146}, {"DefinitionName": "GuideRef", "DestUnitHashId": 75634982}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3743544242}, {"DefinitionName": "GuideRef", "DestUnitHashId": 704555472}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2436233553}, {"DefinitionName": "GuideRef", "DestUnitHashId": 594103238}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3944984689}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4173891259}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1429591875}, {"DefinitionName": "GuideRef", "DestUnitHashId": 657845232}, {"DefinitionName": "GuideRef", "DestUnitHashId": 559322410}, {"DefinitionName": "GuideRef", "DestUnitHashId": 315592498}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3103162463}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1528788622}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3748032060}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3171934307}]}, {"HashId": 2115870725, "Rotate": [0, 0, 0], "Translate": [2584.195556640625, 253.5156707763672, -1160.39697265625], "UnitConfigName": "Npc_Road_006", "GenGroupId": 471514, "UiName": "Zorona", "MapType": "MainField", "MapName": "H-3", "data": {"Translate": [2584.195556640625, 253.5156707763672, -1160.39697265625], "UnitConfigName": "Npc_Road_006", "HashId": 2115870725, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3259398055}, {"DefinitionName": "GuideRef", "DestUnitHashId": 401700089}, {"DefinitionName": "GuideRef", "DestUnitHashId": 264758656}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3040954161}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2725370396}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2025903382}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2530128954}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3207950847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114403408}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2111463985}, {"DefinitionName": "GuideRef", "DestUnitHashId": 95671118}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3649304972}, {"DefinitionName": "GuideRef", "DestUnitHashId": 254896230}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2352068884}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2999250949}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3060720264}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3259398055}, {"DefinitionName": "GuideRef", "DestUnitHashId": 401700089}, {"DefinitionName": "GuideRef", "DestUnitHashId": 264758656}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3040954161}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2725370396}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2025903382}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2530128954}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3207950847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114403408}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2111463985}, {"DefinitionName": "GuideRef", "DestUnitHashId": 95671118}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3649304972}, {"DefinitionName": "GuideRef", "DestUnitHashId": 254896230}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2352068884}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2999250949}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3060720264}]}, {"HashId": 2115870726, "Rotate": [0, 0, 0], "Translate": [2609.308349609375, 253.8481903076172, -1147.0531005859375], "UnitConfigName": "Npc_Road_007", "GenGroupId": 471514, "UiName": "Kairo", "MapType": "MainField", "MapName": "H-3", "data": {"Translate": [2609.308349609375, 253.8481903076172, -1147.0531005859375], "UnitConfigName": "Npc_Road_007", "HashId": 2115870726, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1308564134}, {"DefinitionName": "GuideRef", "DestUnitHashId": 401700089}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3293146901}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3788949394}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2918351885}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2887720775}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3711537768}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2070570568}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1308564134}, {"DefinitionName": "GuideRef", "DestUnitHashId": 401700089}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3293146901}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3788949394}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2918351885}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2887720775}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3711537768}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2070570568}]}, {"HashId": 2115870727, "Rotate": [0, 0, 0], "Translate": [1772.018798828125, 116.1877670288086, 1960.431640625], "UnitConfigName": "Npc_Road_008", "GenGroupId": 471514, "UiName": "Toma", "MapType": "MainField", "MapName": "G-6", "data": {"Translate": [1772.018798828125, 116.1877670288086, 1960.431640625], "UnitConfigName": "Npc_Road_008", "HashId": 2115870727, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 160919740}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1191727708}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2606421385}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3329736833}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3794892005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2147539057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1221156171}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3646180107}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2569713605}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4126111784}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1991802720}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014010508}, {"DefinitionName": "GuideRef", "DestUnitHashId": 601836639}, {"DefinitionName": "GuideRef", "DestUnitHashId": 147559759}, {"DefinitionName": "GuideRef", "DestUnitHashId": 889190705}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1668986272}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014912847}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 160919740}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1191727708}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2606421385}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3329736833}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3794892005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2147539057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1221156171}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3646180107}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2569713605}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4126111784}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1991802720}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014010508}, {"DefinitionName": "GuideRef", "DestUnitHashId": 601836639}, {"DefinitionName": "GuideRef", "DestUnitHashId": 147559759}, {"DefinitionName": "GuideRef", "DestUnitHashId": 889190705}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1668986272}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014912847}]}, {"HashId": 2115870728, "Rotate": [0, 0, 0], "Translate": [2941.885009765625, 112.44611358642578, 3437.84521484375], "UnitConfigName": "Npc_Road_009", "GenGroupId": 471514, "UiName": "Letty", "MapType": "MainField", "MapName": "H-8", "data": {"Translate": [2941.885009765625, 112.44611358642578, 3437.84521484375], "UnitConfigName": "Npc_Road_009", "HashId": 2115870728, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1616858345}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3069357936}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1446692725}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2770770338}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3258718766}, {"DefinitionName": "GuideRef", "DestUnitHashId": 777365121}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3366844096}, {"DefinitionName": "GuideRef", "DestUnitHashId": 676543785}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3799674093}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2098390360}, {"DefinitionName": "GuideRef", "DestUnitHashId": 820762220}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1616858345}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3069357936}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1446692725}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2770770338}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3258718766}, {"DefinitionName": "GuideRef", "DestUnitHashId": 777365121}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3366844096}, {"DefinitionName": "GuideRef", "DestUnitHashId": 676543785}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3799674093}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2098390360}, {"DefinitionName": "GuideRef", "DestUnitHashId": 820762220}]}, {"HashId": 2115870729, "Rotate": [0, 0, 0], "Translate": [-2901.783203125, 274.71051025390625, -565.7744750976562], "UnitConfigName": "Npc_Road_010", "GenGroupId": 471514, "UiName": "Yammo", "MapType": "MainField", "MapName": "C-4", "data": {"Translate": [-2901.783203125, 274.71051025390625, -565.7744750976562], "UnitConfigName": "Npc_Road_010", "HashId": 2115870729, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1115149561}, {"DefinitionName": "GuideRef", "DestUnitHashId": 8547658}, {"DefinitionName": "GuideRef", "DestUnitHashId": 570600847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1774042991}, {"DefinitionName": "GuideRef", "DestUnitHashId": 330726427}, {"DefinitionName": "GuideRef", "DestUnitHashId": 454476661}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3099837821}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2066577859}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4124144748}, {"DefinitionName": "GuideRef", "DestUnitHashId": 714343146}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3600690529}, {"DefinitionName": "GuideRef", "DestUnitHashId": 594103238}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2276712003}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3944984689}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2457485715}, {"DefinitionName": "GuideRef", "DestUnitHashId": 657845232}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3114662735}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3428882246}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3313010566}, {"DefinitionName": "GuideRef", "DestUnitHashId": 315592498}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1528788622}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3748032060}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1748006964}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3171934307}, {"DefinitionName": "GuideRef", "DestUnitHashId": 494147688}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1718271111}, {"DefinitionName": "GuideRef", "DestUnitHashId": 134952434}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4158204620}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1815022904}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1115149561}, {"DefinitionName": "GuideRef", "DestUnitHashId": 8547658}, {"DefinitionName": "GuideRef", "DestUnitHashId": 570600847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1774042991}, {"DefinitionName": "GuideRef", "DestUnitHashId": 330726427}, {"DefinitionName": "GuideRef", "DestUnitHashId": 454476661}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3099837821}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2066577859}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4124144748}, {"DefinitionName": "GuideRef", "DestUnitHashId": 714343146}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3600690529}, {"DefinitionName": "GuideRef", "DestUnitHashId": 594103238}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2276712003}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3944984689}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2457485715}, {"DefinitionName": "GuideRef", "DestUnitHashId": 657845232}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3114662735}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3428882246}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3313010566}, {"DefinitionName": "GuideRef", "DestUnitHashId": 315592498}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1528788622}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3748032060}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1748006964}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3171934307}, {"DefinitionName": "GuideRef", "DestUnitHashId": 494147688}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1718271111}, {"DefinitionName": "GuideRef", "DestUnitHashId": 134952434}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4158204620}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1815022904}]}, {"HashId": 2115870730, "Rotate": [0, 0, 0], "Translate": [-3199.6953125, 129.34872436523438, 2527.2109375], "UnitConfigName": "Npc_Road_011", "GenGroupId": 471514, "UiName": "Kyra", "MapType": "MainField", "MapName": "B-7", "data": {"Translate": [-3199.6953125, 129.34872436523438, 2527.2109375], "UnitConfigName": "Npc_Road_011", "HashId": 2115870730, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 4108882120}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3168368118}, {"DefinitionName": "GuideRef", "DestUnitHashId": 768138114}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3273463362}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 4108882120}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3168368118}, {"DefinitionName": "GuideRef", "DestUnitHashId": 768138114}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3273463362}]}, {"HashId": 2115870731, "Rotate": [0, 0, 0], "Translate": [-3215.1376953125, 129.262451171875, 2526.21923828125], "UnitConfigName": "Npc_Road_012", "GenGroupId": 471514, "UiName": "Calisa", "MapType": "MainField", "MapName": "B-7", "data": {"Translate": [-3215.1376953125, 129.262451171875, 2526.21923828125], "UnitConfigName": "Npc_Road_012", "HashId": 2115870731, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 2593625034}, {"DefinitionName": "GuideRef", "DestUnitHashId": 34881392}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1354125763}, {"DefinitionName": "GuideRef", "DestUnitHashId": 948315245}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3929245052}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1440244829}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2562759036}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 2593625034}, {"DefinitionName": "GuideRef", "DestUnitHashId": 34881392}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1354125763}, {"DefinitionName": "GuideRef", "DestUnitHashId": 948315245}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3929245052}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1440244829}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2562759036}]}, {"HashId": 2115870732, "Rotate": [0, 0, 0], "Translate": [1545.72265625, 166.510009765625, 3538.99658203125], "UnitConfigName": "Npc_Road_013", "GenGroupId": 471514, "UiName": "Meeshy", "MapType": "MainField", "MapName": "G-8", "data": {"Translate": [1545.72265625, 166.510009765625, 3538.99658203125], "UnitConfigName": "Npc_Road_013", "HashId": 2115870732, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1616858345}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1558999836}, {"DefinitionName": "GuideRef", "DestUnitHashId": 747014035}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2078826905}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1305599063}, {"DefinitionName": "GuideRef", "DestUnitHashId": 777365121}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1535227653}, {"DefinitionName": "GuideRef", "DestUnitHashId": 200692390}, {"DefinitionName": "GuideRef", "DestUnitHashId": 806937581}, {"DefinitionName": "GuideRef", "DestUnitHashId": 208932289}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1616858345}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1558999836}, {"DefinitionName": "GuideRef", "DestUnitHashId": 747014035}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2078826905}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1305599063}, {"DefinitionName": "GuideRef", "DestUnitHashId": 777365121}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1535227653}, {"DefinitionName": "GuideRef", "DestUnitHashId": 200692390}, {"DefinitionName": "GuideRef", "DestUnitHashId": 806937581}, {"DefinitionName": "GuideRef", "DestUnitHashId": 208932289}]}, {"HashId": 2115870733, "Rotate": [0, 0, 0], "Translate": [2949.7900390625, 108.83908081054688, 3417.3916015625], "UnitConfigName": "Npc_Road_014", "GenGroupId": 471514, "UiName": "Spinch", "MapType": "MainField", "MapName": "H-8", "data": {"Translate": [2949.7900390625, 108.83908081054688, 3417.3916015625], "UnitConfigName": "Npc_Road_014", "HashId": 2115870733, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1616858345}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3069357936}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1446692725}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2770770338}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2098390360}, {"DefinitionName": "GuideRef", "DestUnitHashId": 777365121}, {"DefinitionName": "GuideRef", "DestUnitHashId": 676543785}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3799674093}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1633761037}, {"DefinitionName": "GuideRef", "DestUnitHashId": 820762220}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1616858345}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3069357936}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1446692725}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2770770338}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2098390360}, {"DefinitionName": "GuideRef", "DestUnitHashId": 777365121}, {"DefinitionName": "GuideRef", "DestUnitHashId": 676543785}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3799674093}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1633761037}, {"DefinitionName": "GuideRef", "DestUnitHashId": 820762220}]}, {"HashId": 2115870734, "Rotate": [0, 0, 0], "Translate": [2934.468994140625, 110.66015625, 3451.27978515625], "UnitConfigName": "Npc_Road_015", "GenGroupId": 471514, "UiName": "Chumin", "MapType": "MainField", "MapName": "H-8", "data": {"Translate": [2934.468994140625, 110.66015625, 3451.27978515625], "UnitConfigName": "Npc_Road_015", "HashId": 2115870734, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1616858345}, {"DefinitionName": "GuideRef", "DestUnitHashId": 806937581}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3069357936}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1558999836}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1446692725}, {"DefinitionName": "GuideRef", "DestUnitHashId": 747014035}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2078826905}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1469390758}, {"DefinitionName": "GuideRef", "DestUnitHashId": 777365121}, {"DefinitionName": "GuideRef", "DestUnitHashId": 676543785}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3799674093}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1535227653}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1305599063}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2354988232}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2098390360}, {"DefinitionName": "GuideRef", "DestUnitHashId": 200692390}, {"DefinitionName": "GuideRef", "DestUnitHashId": 820762220}, {"DefinitionName": "GuideRef", "DestUnitHashId": 208932289}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1616858345}, {"DefinitionName": "GuideRef", "DestUnitHashId": 806937581}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3069357936}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1558999836}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1446692725}, {"DefinitionName": "GuideRef", "DestUnitHashId": 747014035}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2078826905}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1469390758}, {"DefinitionName": "GuideRef", "DestUnitHashId": 777365121}, {"DefinitionName": "GuideRef", "DestUnitHashId": 676543785}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3799674093}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1535227653}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1305599063}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2354988232}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2098390360}, {"DefinitionName": "GuideRef", "DestUnitHashId": 200692390}, {"DefinitionName": "GuideRef", "DestUnitHashId": 820762220}, {"DefinitionName": "GuideRef", "DestUnitHashId": 208932289}]}, {"HashId": 2115870735, "Rotate": [0, 0, 0], "Translate": [1543.3714599609375, 166.510009765625, 3536.538818359375], "UnitConfigName": "Npc_Road_016", "GenGroupId": 471514, "UiName": "Totsuna", "MapType": "MainField", "MapName": "G-8", "data": {"Translate": [1543.3714599609375, 166.510009765625, 3536.538818359375], "UnitConfigName": "Npc_Road_016", "HashId": 2115870735, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1558999836}, {"DefinitionName": "GuideRef", "DestUnitHashId": 747014035}, {"DefinitionName": "GuideRef", "DestUnitHashId": 777365121}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3686524491}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1535227653}, {"DefinitionName": "GuideRef", "DestUnitHashId": 200692390}, {"DefinitionName": "GuideRef", "DestUnitHashId": 806937581}, {"DefinitionName": "GuideRef", "DestUnitHashId": 208932289}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1558999836}, {"DefinitionName": "GuideRef", "DestUnitHashId": 747014035}, {"DefinitionName": "GuideRef", "DestUnitHashId": 777365121}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3686524491}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1535227653}, {"DefinitionName": "GuideRef", "DestUnitHashId": 200692390}, {"DefinitionName": "GuideRef", "DestUnitHashId": 806937581}, {"DefinitionName": "GuideRef", "DestUnitHashId": 208932289}]}, {"HashId": 2115870736, "Rotate": [0, 0, 0], "Translate": [1757.601318359375, 116.06304168701172, 1934.5721435546875], "UnitConfigName": "Npc_Road_018", "GenGroupId": 471514, "UiName": "Brokka", "MapType": "MainField", "MapName": "G-6", "data": {"Translate": [1757.601318359375, 116.06304168701172, 1934.5721435546875], "UnitConfigName": "Npc_Road_018", "HashId": 2115870736, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 629975510}, {"DefinitionName": "GuideRef", "DestUnitHashId": 779464926}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1789434527}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2725032928}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2038266936}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1545091924}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3604273112}, {"DefinitionName": "GuideRef", "DestUnitHashId": 601836639}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2687789632}, {"DefinitionName": "GuideRef", "DestUnitHashId": 147559759}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014010508}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 629975510}, {"DefinitionName": "GuideRef", "DestUnitHashId": 779464926}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1789434527}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2725032928}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2038266936}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1545091924}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3604273112}, {"DefinitionName": "GuideRef", "DestUnitHashId": 601836639}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2687789632}, {"DefinitionName": "GuideRef", "DestUnitHashId": 147559759}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014010508}]}, {"HashId": 2115870737, "Rotate": [0, 0, 0], "Translate": [1760.89892578125, 116.06304168701172, 1934.8533935546875], "UnitConfigName": "Npc_Road_019", "GenGroupId": 471514, "UiName": "Bugut", "MapType": "MainField", "MapName": "G-6", "data": {"Translate": [1760.89892578125, 116.06304168701172, 1934.8533935546875], "UnitConfigName": "Npc_Road_019", "HashId": 2115870737, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3488713712}, {"DefinitionName": "GuideRef", "DestUnitHashId": 629975510}, {"DefinitionName": "GuideRef", "DestUnitHashId": 779464926}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2038266936}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1545091924}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3604273112}, {"DefinitionName": "GuideRef", "DestUnitHashId": 601836639}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2687789632}, {"DefinitionName": "GuideRef", "DestUnitHashId": 147559759}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014010508}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3488713712}, {"DefinitionName": "GuideRef", "DestUnitHashId": 629975510}, {"DefinitionName": "GuideRef", "DestUnitHashId": 779464926}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2038266936}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1545091924}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3604273112}, {"DefinitionName": "GuideRef", "DestUnitHashId": 601836639}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2687789632}, {"DefinitionName": "GuideRef", "DestUnitHashId": 147559759}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014010508}]}, {"HashId": 2115870738, "Rotate": [0, 0, 0], "Translate": [2348.98046875, 116.76460266113281, 1849.82568359375], "UnitConfigName": "Npc_Road_020", "GenGroupId": 471514, "UiName": "Teli", "MapType": "MainField", "MapName": "H-6", "data": {"Translate": [2348.98046875, 116.76460266113281, 1849.82568359375], "UnitConfigName": "Npc_Road_020", "HashId": 2115870738, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 160919740}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1191727708}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2606421385}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3329736833}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3794892005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2147539057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2057373168}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3646180107}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4126111784}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1221156171}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1991802720}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1967481474}, {"DefinitionName": "GuideRef", "DestUnitHashId": 889190705}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1668986272}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 160919740}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1191727708}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2606421385}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3329736833}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3794892005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2147539057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2057373168}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3646180107}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4126111784}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1221156171}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1991802720}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1967481474}, {"DefinitionName": "GuideRef", "DestUnitHashId": 889190705}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1668986272}]}, {"HashId": 2115870739, "Rotate": [0, 0, 0], "Translate": [1773.96875, 116.43059539794922, 1911.950439453125], "UnitConfigName": "Npc_Road_021", "GenGroupId": 471514, "UiName": "Joute", "MapType": "MainField", "MapName": "G-6", "data": {"Translate": [1773.96875, 116.43059539794922, 1911.950439453125], "UnitConfigName": "Npc_Road_021", "HashId": 2115870739, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 4126111784}, {"DefinitionName": "GuideRef", "DestUnitHashId": 736931466}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1991802720}, {"DefinitionName": "GuideRef", "DestUnitHashId": 889190705}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3385770067}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1191727708}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3794892005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1221156171}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3646180107}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014010508}, {"DefinitionName": "GuideRef", "DestUnitHashId": 160919740}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2606421385}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2231503574}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3844345225}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1668986272}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3329736833}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2147539057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1967481474}, {"DefinitionName": "GuideRef", "DestUnitHashId": 601836639}, {"DefinitionName": "GuideRef", "DestUnitHashId": 147559759}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014912847}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 4126111784}, {"DefinitionName": "GuideRef", "DestUnitHashId": 736931466}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1991802720}, {"DefinitionName": "GuideRef", "DestUnitHashId": 889190705}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3385770067}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1191727708}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3794892005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1221156171}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3646180107}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014010508}, {"DefinitionName": "GuideRef", "DestUnitHashId": 160919740}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2606421385}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2231503574}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3844345225}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1668986272}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3329736833}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2147539057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1967481474}, {"DefinitionName": "GuideRef", "DestUnitHashId": 601836639}, {"DefinitionName": "GuideRef", "DestUnitHashId": 147559759}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014912847}]}, {"HashId": 2115870740, "Rotate": [0, 0, 0], "Translate": [1764.072509765625, 116.06804656982422, 1919.748046875], "UnitConfigName": "Npc_Road_022", "GenGroupId": 471514, "UiName": "Celessa", "MapType": "MainField", "MapName": "G-6", "data": {"Translate": [1764.072509765625, 116.06804656982422, 1919.748046875], "UnitConfigName": "Npc_Road_022", "HashId": 2115870740, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 2588968628}, {"DefinitionName": "GuideRef", "DestUnitHashId": 160919740}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1191727708}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3329736833}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3794892005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2147539057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2057373168}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2545305865}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3646180107}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4126111784}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1991802720}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014010508}, {"DefinitionName": "GuideRef", "DestUnitHashId": 601836639}, {"DefinitionName": "GuideRef", "DestUnitHashId": 147559759}, {"DefinitionName": "GuideRef", "DestUnitHashId": 889190705}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1668986272}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014912847}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 2588968628}, {"DefinitionName": "GuideRef", "DestUnitHashId": 160919740}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1191727708}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3329736833}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3794892005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2147539057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2057373168}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2545305865}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3646180107}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4126111784}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1991802720}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014010508}, {"DefinitionName": "GuideRef", "DestUnitHashId": 601836639}, {"DefinitionName": "GuideRef", "DestUnitHashId": 147559759}, {"DefinitionName": "GuideRef", "DestUnitHashId": 889190705}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1668986272}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1014912847}]}, {"HashId": 2115870741, "Rotate": [0, 0, 0], "Translate": [892.853271484375, 131.70065307617188, 205.85455322265625], "UnitConfigName": "Npc_Road_023", "GenGroupId": 471514, "UiName": "Kazul", "MapType": "MainField", "MapName": "F-5", "data": {"Translate": [892.853271484375, 131.70065307617188, 205.85455322265625], "UnitConfigName": "Npc_Road_023", "HashId": 2115870741, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 835885109}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114880142}, {"DefinitionName": "GuideRef", "DestUnitHashId": 398068186}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1245182473}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2712088099}, {"DefinitionName": "GuideRef", "DestUnitHashId": 247494920}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1563715259}, {"DefinitionName": "GuideRef", "DestUnitHashId": 737982267}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2242152129}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2707930037}, {"DefinitionName": "GuideRef", "DestUnitHashId": 135275600}, {"DefinitionName": "GuideRef", "DestUnitHashId": 494201549}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3550997847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2257911857}, {"DefinitionName": "GuideRef", "DestUnitHashId": 636499016}, {"DefinitionName": "GuideRef", "DestUnitHashId": 173983005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4275184057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 8566410}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1596788423}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 835885109}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114880142}, {"DefinitionName": "GuideRef", "DestUnitHashId": 398068186}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1245182473}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2712088099}, {"DefinitionName": "GuideRef", "DestUnitHashId": 247494920}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1563715259}, {"DefinitionName": "GuideRef", "DestUnitHashId": 737982267}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2242152129}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2707930037}, {"DefinitionName": "GuideRef", "DestUnitHashId": 135275600}, {"DefinitionName": "GuideRef", "DestUnitHashId": 494201549}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3550997847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2257911857}, {"DefinitionName": "GuideRef", "DestUnitHashId": 636499016}, {"DefinitionName": "GuideRef", "DestUnitHashId": 173983005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4275184057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 8566410}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1596788423}]}, {"HashId": 2115870742, "Rotate": [0, 0, 0], "Translate": [889.6187744140625, 131.68807983398438, 203.52487182617188], "UnitConfigName": "Npc_Road_024", "GenGroupId": 471514, "UiName": "Cambo", "MapType": "MainField", "MapName": "F-5", "data": {"Translate": [889.6187744140625, 131.68807983398438, 203.52487182617188], "UnitConfigName": "Npc_Road_024", "HashId": 2115870742, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 556821293}, {"DefinitionName": "GuideRef", "DestUnitHashId": 173983005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 636499016}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114880142}, {"DefinitionName": "GuideRef", "DestUnitHashId": 8566410}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4108291045}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3562990203}, {"DefinitionName": "GuideRef", "DestUnitHashId": 233532566}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1245182473}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1563715259}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3971510404}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3550997847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 319548637}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 556821293}, {"DefinitionName": "GuideRef", "DestUnitHashId": 173983005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 636499016}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114880142}, {"DefinitionName": "GuideRef", "DestUnitHashId": 8566410}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4108291045}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3562990203}, {"DefinitionName": "GuideRef", "DestUnitHashId": 233532566}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1245182473}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1563715259}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3971510404}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3550997847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 319548637}]}, {"HashId": 2115870743, "Rotate": [0, 0, 0], "Translate": [934.739013671875, 135.7801055908203, 125.67825317382812], "UnitConfigName": "Npc_Road_025", "GenGroupId": 471514, "UiName": "Endai", "MapType": "MainField", "MapName": "F-5", "data": {"Translate": [934.739013671875, 135.7801055908203, 125.67825317382812], "UnitConfigName": "Npc_Road_025", "HashId": 2115870743, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1596788423}, {"DefinitionName": "GuideRef", "DestUnitHashId": 835885109}, {"DefinitionName": "GuideRef", "DestUnitHashId": 173983005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 636499016}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4275184057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114880142}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2242152129}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2707930037}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1987368715}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1245182473}, {"DefinitionName": "GuideRef", "DestUnitHashId": 135275600}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1563715259}, {"DefinitionName": "GuideRef", "DestUnitHashId": 494201549}, {"DefinitionName": "GuideRef", "DestUnitHashId": 247494920}, {"DefinitionName": "GuideRef", "DestUnitHashId": 737982267}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1596788423}, {"DefinitionName": "GuideRef", "DestUnitHashId": 835885109}, {"DefinitionName": "GuideRef", "DestUnitHashId": 173983005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 636499016}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4275184057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114880142}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2242152129}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2707930037}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1987368715}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1245182473}, {"DefinitionName": "GuideRef", "DestUnitHashId": 135275600}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1563715259}, {"DefinitionName": "GuideRef", "DestUnitHashId": 494201549}, {"DefinitionName": "GuideRef", "DestUnitHashId": 247494920}, {"DefinitionName": "GuideRef", "DestUnitHashId": 737982267}]}, {"HashId": 2115870744, "Rotate": [0, 0, 0], "Translate": [927.6534423828125, 135.63397216796875, 127.92999267578125], "UnitConfigName": "Npc_Road_026", "GenGroupId": 471514, "UiName": "Spoone", "MapType": "MainField", "MapName": "F-5", "data": {"Translate": [927.6534423828125, 135.63397216796875, 127.92999267578125], "UnitConfigName": "Npc_Road_026", "HashId": 2115870744, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1596788423}, {"DefinitionName": "GuideRef", "DestUnitHashId": 835885109}, {"DefinitionName": "GuideRef", "DestUnitHashId": 173983005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 636499016}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4275184057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114880142}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2242152129}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2707930037}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3470382949}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1245182473}, {"DefinitionName": "GuideRef", "DestUnitHashId": 135275600}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2712088099}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1563715259}, {"DefinitionName": "GuideRef", "DestUnitHashId": 494201549}, {"DefinitionName": "GuideRef", "DestUnitHashId": 247494920}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2257911857}, {"DefinitionName": "GuideRef", "DestUnitHashId": 737982267}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1596788423}, {"DefinitionName": "GuideRef", "DestUnitHashId": 835885109}, {"DefinitionName": "GuideRef", "DestUnitHashId": 173983005}, {"DefinitionName": "GuideRef", "DestUnitHashId": 636499016}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4275184057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114880142}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2242152129}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2707930037}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3470382949}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1245182473}, {"DefinitionName": "GuideRef", "DestUnitHashId": 135275600}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2712088099}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1563715259}, {"DefinitionName": "GuideRef", "DestUnitHashId": 494201549}, {"DefinitionName": "GuideRef", "DestUnitHashId": 247494920}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2257911857}, {"DefinitionName": "GuideRef", "DestUnitHashId": 737982267}]}, {"HashId": 2115870745, "Rotate": [0, 0, 0], "Translate": [2347.225341796875, 255.56082153320312, -1538.7457275390625], "UnitConfigName": "Npc_Road_027", "GenGroupId": 471514, "UiName": "Dayto", "MapType": "MainField", "MapName": "H-3", "data": {"Translate": [2347.225341796875, 255.56082153320312, -1538.7457275390625], "UnitConfigName": "Npc_Road_027", "HashId": 2115870745, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 401700089}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1308564134}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3293146901}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2887720775}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2070570568}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3711537768}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2918351885}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 401700089}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1308564134}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3293146901}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2887720775}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2070570568}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3711537768}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2918351885}]}, {"HashId": 2115870746, "Rotate": [0, 0, 0], "Translate": [2615.118408203125, 253.85317993164062, -1148.515380859375], "UnitConfigName": "Npc_Road_028", "GenGroupId": 471514, "UiName": "Boldon", "MapType": "MainField", "MapName": "H-3", "data": {"Translate": [2615.118408203125, 253.85317993164062, -1148.515380859375], "UnitConfigName": "Npc_Road_028", "HashId": 2115870746, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 401700089}, {"DefinitionName": "GuideRef", "DestUnitHashId": 264758656}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2025903382}, {"DefinitionName": "GuideRef", "DestUnitHashId": 999031183}, {"DefinitionName": "GuideRef", "DestUnitHashId": 95671118}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4138137367}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3649304972}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3060720264}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3207950847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114403408}, {"DefinitionName": "GuideRef", "DestUnitHashId": 254896230}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1705964063}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2725370396}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2526244360}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2999250949}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3259398055}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3040954161}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2530128954}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2352068884}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 401700089}, {"DefinitionName": "GuideRef", "DestUnitHashId": 264758656}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2025903382}, {"DefinitionName": "GuideRef", "DestUnitHashId": 999031183}, {"DefinitionName": "GuideRef", "DestUnitHashId": 95671118}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4138137367}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3649304972}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3060720264}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3207950847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114403408}, {"DefinitionName": "GuideRef", "DestUnitHashId": 254896230}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1705964063}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2725370396}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2526244360}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2999250949}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3259398055}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3040954161}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2530128954}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2352068884}]}, {"HashId": 2115870747, "Rotate": [0, 0, 0], "Translate": [2618.1484375, 253.8481903076172, -1147.9771728515625], "UnitConfigName": "Npc_Road_029", "GenGroupId": 471514, "UiName": "Karsh", "MapType": "MainField", "MapName": "H-3", "data": {"Translate": [2618.1484375, 253.8481903076172, -1147.9771728515625], "UnitConfigName": "Npc_Road_029", "HashId": 2115870747, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3259398055}, {"DefinitionName": "GuideRef", "DestUnitHashId": 401700089}, {"DefinitionName": "GuideRef", "DestUnitHashId": 264758656}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3040954161}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2999250949}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2025903382}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2530128954}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2725370396}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3207950847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114403408}, {"DefinitionName": "GuideRef", "DestUnitHashId": 95671118}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4138137367}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3649304972}, {"DefinitionName": "GuideRef", "DestUnitHashId": 254896230}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1747758167}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2352068884}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1705964063}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3060720264}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3259398055}, {"DefinitionName": "GuideRef", "DestUnitHashId": 401700089}, {"DefinitionName": "GuideRef", "DestUnitHashId": 264758656}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3040954161}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2999250949}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2025903382}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2530128954}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2725370396}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3207950847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114403408}, {"DefinitionName": "GuideRef", "DestUnitHashId": 95671118}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4138137367}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3649304972}, {"DefinitionName": "GuideRef", "DestUnitHashId": 254896230}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1747758167}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2352068884}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1705964063}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3060720264}]}, {"HashId": 2115870748, "Rotate": [0, 0, 0], "Translate": [-2800.309326171875, 135.44142150878906, 2217.475341796875], "UnitConfigName": "Npc_Road_030", "GenGroupId": 471514, "UiName": "Gartan", "MapType": "MainField", "MapName": "C-7", "data": {"Translate": [-2800.309326171875, 135.44142150878906, 2217.475341796875], "UnitConfigName": "Npc_Road_030", "HashId": 2115870748, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 4108882120}, {"DefinitionName": "GuideRef", "DestUnitHashId": 279427057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3168368118}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1657396844}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3738409363}, {"DefinitionName": "GuideRef", "DestUnitHashId": 34881392}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2593625034}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2562759036}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1354125763}, {"DefinitionName": "GuideRef", "DestUnitHashId": 948315245}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2125113136}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3273463362}, {"DefinitionName": "GuideRef", "DestUnitHashId": 768138114}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1440244829}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3929245052}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 4108882120}, {"DefinitionName": "GuideRef", "DestUnitHashId": 279427057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3168368118}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1657396844}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3738409363}, {"DefinitionName": "GuideRef", "DestUnitHashId": 34881392}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2593625034}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2562759036}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1354125763}, {"DefinitionName": "GuideRef", "DestUnitHashId": 948315245}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2125113136}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3273463362}, {"DefinitionName": "GuideRef", "DestUnitHashId": 768138114}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1440244829}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3929245052}]}, {"HashId": 2115870749, "Rotate": [0, 0, 0], "Translate": [-2580.32080078125, 159.41778564453125, 2060.8818359375], "UnitConfigName": "Npc_Road_031", "GenGroupId": 471514, "UiName": "Maypin", "MapType": "MainField", "MapName": "C-7", "data": {"Translate": [-2580.32080078125, 159.41778564453125, 2060.8818359375], "UnitConfigName": "Npc_Road_031", "HashId": 2115870749, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1354125763}, {"DefinitionName": "GuideRef", "DestUnitHashId": 948315245}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2125113136}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1543638902}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1966232939}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1440244829}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1354125763}, {"DefinitionName": "GuideRef", "DestUnitHashId": 948315245}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2125113136}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1543638902}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1966232939}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1440244829}]}, {"HashId": 2115870750, "Rotate": [0, 0, 0], "Translate": [-2802.1083984375, 135.44142150878906, 2233.478759765625], "UnitConfigName": "Npc_Road_032", "GenGroupId": 471514, "UiName": "Lukan", "MapType": "MainField", "MapName": "C-7", "data": {"Translate": [-2802.1083984375, 135.44142150878906, 2233.478759765625], "UnitConfigName": "Npc_Road_032", "HashId": 2115870750, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 4108882120}, {"DefinitionName": "GuideRef", "DestUnitHashId": 279427057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3168368118}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1657396844}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2593625034}, {"DefinitionName": "GuideRef", "DestUnitHashId": 34881392}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2562759036}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2162090047}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1354125763}, {"DefinitionName": "GuideRef", "DestUnitHashId": 948315245}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2125113136}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3273463362}, {"DefinitionName": "GuideRef", "DestUnitHashId": 768138114}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1440244829}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3929245052}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 4108882120}, {"DefinitionName": "GuideRef", "DestUnitHashId": 279427057}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3168368118}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1657396844}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2593625034}, {"DefinitionName": "GuideRef", "DestUnitHashId": 34881392}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2562759036}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2162090047}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1354125763}, {"DefinitionName": "GuideRef", "DestUnitHashId": 948315245}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2125113136}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3273463362}, {"DefinitionName": "GuideRef", "DestUnitHashId": 768138114}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1440244829}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3929245052}]}, {"HashId": 2115870751, "Rotate": [0, 0, 0], "Translate": [-2903.809814453125, 274.8681945800781, -557.2490234375], "UnitConfigName": "Npc_Road_033", "GenGroupId": 471514, "UiName": "Nazbi", "MapType": "MainField", "MapName": "C-4", "data": {"Translate": [-2903.809814453125, 274.8681945800781, -557.2490234375], "UnitConfigName": "Npc_Road_033", "HashId": 2115870751, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1115149561}, {"DefinitionName": "GuideRef", "DestUnitHashId": 570600847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1774042991}, {"DefinitionName": "GuideRef", "DestUnitHashId": 330726427}, {"DefinitionName": "GuideRef", "DestUnitHashId": 454476661}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3099837821}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4124144748}, {"DefinitionName": "GuideRef", "DestUnitHashId": 714343146}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3600690529}, {"DefinitionName": "GuideRef", "DestUnitHashId": 594103238}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2276712003}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3944984689}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2457485715}, {"DefinitionName": "GuideRef", "DestUnitHashId": 657845232}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3114662735}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3313010566}, {"DefinitionName": "GuideRef", "DestUnitHashId": 315592498}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3748032060}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1748006964}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3171934307}, {"DefinitionName": "GuideRef", "DestUnitHashId": 494147688}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1718271111}, {"DefinitionName": "GuideRef", "DestUnitHashId": 134952434}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4158204620}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1815022904}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1115149561}, {"DefinitionName": "GuideRef", "DestUnitHashId": 570600847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1774042991}, {"DefinitionName": "GuideRef", "DestUnitHashId": 330726427}, {"DefinitionName": "GuideRef", "DestUnitHashId": 454476661}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3099837821}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4124144748}, {"DefinitionName": "GuideRef", "DestUnitHashId": 714343146}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3600690529}, {"DefinitionName": "GuideRef", "DestUnitHashId": 594103238}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2276712003}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3944984689}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2457485715}, {"DefinitionName": "GuideRef", "DestUnitHashId": 657845232}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3114662735}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3313010566}, {"DefinitionName": "GuideRef", "DestUnitHashId": 315592498}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3748032060}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1748006964}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3171934307}, {"DefinitionName": "GuideRef", "DestUnitHashId": 494147688}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1718271111}, {"DefinitionName": "GuideRef", "DestUnitHashId": 134952434}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4158204620}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1815022904}]}, {"HashId": 2115870752, "Rotate": [0, 0, 0], "Translate": [-1522.3363037109375, 212.23468017578125, -1769.606689453125], "UnitConfigName": "Npc_Road_034", "GenGroupId": 471514, "UiName": "Ronn", "MapType": "MainField", "MapName": "D-3", "data": {"Translate": [-1522.3363037109375, 212.23468017578125, -1769.606689453125], "UnitConfigName": "Npc_Road_034", "HashId": 2115870752, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1115149561}, {"DefinitionName": "GuideRef", "DestUnitHashId": 570600847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 315592498}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3171934307}, {"DefinitionName": "GuideRef", "DestUnitHashId": 594103238}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3099837821}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3944984689}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3748032060}, {"DefinitionName": "GuideRef", "DestUnitHashId": 714343146}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 1115149561}, {"DefinitionName": "GuideRef", "DestUnitHashId": 570600847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 315592498}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3171934307}, {"DefinitionName": "GuideRef", "DestUnitHashId": 594103238}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3099837821}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3944984689}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3748032060}, {"DefinitionName": "GuideRef", "DestUnitHashId": 714343146}]}, {"HashId": 2115870753, "Rotate": [0, 0, 0], "Translate": [-2892.724853515625, 274.7279968261719, -558.38232421875], "UnitConfigName": "Npc_Road_035", "GenGroupId": 471514, "UiName": "Baddek", "MapType": "MainField", "MapName": "C-4", "data": {"Translate": [-2892.724853515625, 274.7279968261719, -558.38232421875], "UnitConfigName": "Npc_Road_035", "HashId": 2115870753, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3114662735}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3313010566}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2568870486}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3600690529}, {"DefinitionName": "GuideRef", "DestUnitHashId": 494147688}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1774042991}, {"DefinitionName": "GuideRef", "DestUnitHashId": 330726427}, {"DefinitionName": "GuideRef", "DestUnitHashId": 454476661}, {"DefinitionName": "GuideRef", "DestUnitHashId": 134952434}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1718271111}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2276712003}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4124144748}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2457485715}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4158204620}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1815022904}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1748006964}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3114662735}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3313010566}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2568870486}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3600690529}, {"DefinitionName": "GuideRef", "DestUnitHashId": 494147688}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1774042991}, {"DefinitionName": "GuideRef", "DestUnitHashId": 330726427}, {"DefinitionName": "GuideRef", "DestUnitHashId": 454476661}, {"DefinitionName": "GuideRef", "DestUnitHashId": 134952434}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1718271111}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2276712003}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4124144748}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2457485715}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4158204620}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1815022904}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1748006964}]}, {"HashId": 2115870754, "Rotate": [0, 0, 0], "Translate": [-2927.15380859375, 275.4565734863281, -516.2594604492188], "UnitConfigName": "Npc_Road_036", "GenGroupId": 471514, "UiName": "Savelle", "MapType": "MainField", "MapName": "C-4", "data": {"Translate": [-2927.15380859375, 275.4565734863281, -516.2594604492188], "UnitConfigName": "Npc_Road_036", "HashId": 2115870754, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3114662735}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3313010566}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3640938648}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2568870486}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3600690529}, {"DefinitionName": "GuideRef", "DestUnitHashId": 494147688}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1774042991}, {"DefinitionName": "GuideRef", "DestUnitHashId": 330726427}, {"DefinitionName": "GuideRef", "DestUnitHashId": 454476661}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1718271111}, {"DefinitionName": "GuideRef", "DestUnitHashId": 134952434}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2276712003}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4124144748}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2457485715}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4158204620}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1815022904}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1748006964}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3114662735}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3313010566}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3640938648}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2568870486}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3600690529}, {"DefinitionName": "GuideRef", "DestUnitHashId": 494147688}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1774042991}, {"DefinitionName": "GuideRef", "DestUnitHashId": 330726427}, {"DefinitionName": "GuideRef", "DestUnitHashId": 454476661}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1718271111}, {"DefinitionName": "GuideRef", "DestUnitHashId": 134952434}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2276712003}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4124144748}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2457485715}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4158204620}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1815022904}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1748006964}]}, {"HashId": 2115870755, "Rotate": [0, 0, 0], "Translate": [-1650.0693359375, 339.7777404785156, -2579.62890625], "UnitConfigName": "Npc_Road_037", "GenGroupId": 471514, "UiName": "Falmark", "MapType": "MainField", "MapName": "D-2", "data": {"Translate": [-1650.0693359375, 339.7777404785156, -2579.62890625], "UnitConfigName": "Npc_Road_037", "HashId": 2115870755, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 704555472}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2315298957}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2436233553}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1603542343}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2020138336}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3384506158}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1340659041}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4173891259}, {"DefinitionName": "GuideRef", "DestUnitHashId": 559322410}, {"DefinitionName": "GuideRef", "DestUnitHashId": 75634982}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 704555472}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2315298957}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2436233553}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1603542343}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2020138336}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3384506158}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1340659041}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4173891259}, {"DefinitionName": "GuideRef", "DestUnitHashId": 559322410}, {"DefinitionName": "GuideRef", "DestUnitHashId": 75634982}]}, {"HashId": 2115870756, "Rotate": [0, 0, 0], "Translate": [-1667.281005859375, 339.3175354003906, -2541.2626953125], "UnitConfigName": "Npc_Road_040", "GenGroupId": 471514, "UiName": "Baumar", "MapType": "MainField", "MapName": "D-2", "data": {"Translate": [-1667.281005859375, 339.3175354003906, -2541.2626953125], "UnitConfigName": "Npc_Road_040", "HashId": 2115870756, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3743544242}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1115149561}, {"DefinitionName": "GuideRef", "DestUnitHashId": 570600847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 315592498}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3103162463}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1603542343}, {"DefinitionName": "GuideRef", "DestUnitHashId": 594103238}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3171934307}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3384506158}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2066577859}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3099837821}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3944984689}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3748032060}, {"DefinitionName": "GuideRef", "DestUnitHashId": 657845232}, {"DefinitionName": "GuideRef", "DestUnitHashId": 559322410}, {"DefinitionName": "GuideRef", "DestUnitHashId": 714343146}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3743544242}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1115149561}, {"DefinitionName": "GuideRef", "DestUnitHashId": 570600847}, {"DefinitionName": "GuideRef", "DestUnitHashId": 315592498}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3103162463}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1603542343}, {"DefinitionName": "GuideRef", "DestUnitHashId": 594103238}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3171934307}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3384506158}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2066577859}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3099837821}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3944984689}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3748032060}, {"DefinitionName": "GuideRef", "DestUnitHashId": 657845232}, {"DefinitionName": "GuideRef", "DestUnitHashId": 559322410}, {"DefinitionName": "GuideRef", "DestUnitHashId": 714343146}]}, {"HashId": 2115870757, "Rotate": [0, 0, 0], "Translate": [3120.95068359375, 306.7212829589844, -1694.533935546875], "UnitConfigName": "Npc_Road_041", "GenGroupId": 471514, "UiName": "Pitar", "MapType": "MainField", "MapName": "I-3", "data": {"Translate": [3120.95068359375, 306.7212829589844, -1694.533935546875], "UnitConfigName": "Npc_Road_041", "HashId": 2115870757, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3898244631}, {"DefinitionName": "GuideRef", "DestUnitHashId": 591838430}, {"DefinitionName": "GuideRef", "DestUnitHashId": 800096116}, {"DefinitionName": "GuideRef", "DestUnitHashId": 894833342}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3173132669}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114207255}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3898244631}, {"DefinitionName": "GuideRef", "DestUnitHashId": 591838430}, {"DefinitionName": "GuideRef", "DestUnitHashId": 800096116}, {"DefinitionName": "GuideRef", "DestUnitHashId": 894833342}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3173132669}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114207255}]}, {"HashId": 2115870758, "Rotate": [0, 0, 0], "Translate": [3158.71337890625, 307.2695617675781, -1692.9248046875], "UnitConfigName": "Npc_Road_042", "GenGroupId": 471514, "UiName": "Naddon", "MapType": "MainField", "MapName": "I-3", "data": {"Translate": [3158.71337890625, 307.2695617675781, -1692.9248046875], "UnitConfigName": "Npc_Road_042", "HashId": 2115870758, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 591838430}, {"DefinitionName": "GuideRef", "DestUnitHashId": 800096116}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1413581896}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3145929775}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1967519410}, {"DefinitionName": "GuideRef", "DestUnitHashId": 894833342}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3173132669}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114207255}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 591838430}, {"DefinitionName": "GuideRef", "DestUnitHashId": 800096116}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1413581896}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3145929775}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1967519410}, {"DefinitionName": "GuideRef", "DestUnitHashId": 894833342}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3173132669}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114207255}]}, {"HashId": 2115870759, "Rotate": [0, 0, 0], "Translate": [3148.7822265625, 307.2695617675781, -1698.7901611328125], "UnitConfigName": "Npc_Road_043", "GenGroupId": 471514, "UiName": "Laroba", "MapType": "MainField", "MapName": "I-3", "data": {"Translate": [3148.7822265625, 307.2695617675781, -1698.7901611328125], "UnitConfigName": "Npc_Road_043", "HashId": 2115870759, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 591838430}, {"DefinitionName": "GuideRef", "DestUnitHashId": 800096116}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3948693388}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1413581896}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3145929775}, {"DefinitionName": "GuideRef", "DestUnitHashId": 894833342}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1685808927}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3173132669}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114207255}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 591838430}, {"DefinitionName": "GuideRef", "DestUnitHashId": 800096116}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3948693388}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1413581896}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3145929775}, {"DefinitionName": "GuideRef", "DestUnitHashId": 894833342}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1685808927}, {"DefinitionName": "GuideRef", "DestUnitHashId": 3173132669}, {"DefinitionName": "GuideRef", "DestUnitHashId": 114207255}]}, {"HashId": 2115870760, "Rotate": [0, 0, 0], "Translate": [3155.37353515625, 307.2695617675781, -1687.035400390625], "UnitConfigName": "Npc_Road_044", "GenGroupId": 471514, "UiName": "Stamm", "MapType": "MainField", "MapName": "I-3", "data": {"Translate": [3155.37353515625, 307.2695617675781, -1687.035400390625], "UnitConfigName": "Npc_Road_044", "HashId": 2115870760, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3904949051}, {"DefinitionName": "GuideRef", "DestUnitHashId": 754354668}, {"DefinitionName": "GuideRef", "DestUnitHashId": 931858238}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1578007961}, {"DefinitionName": "GuideRef", "DestUnitHashId": 771368133}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2164964362}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4179934092}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2473279917}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4075320415}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3904949051}, {"DefinitionName": "GuideRef", "DestUnitHashId": 754354668}, {"DefinitionName": "GuideRef", "DestUnitHashId": 931858238}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1578007961}, {"DefinitionName": "GuideRef", "DestUnitHashId": 771368133}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2164964362}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4179934092}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2473279917}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4075320415}]}, {"HashId": 2115870761, "Rotate": [0, 0, 0], "Translate": [3136.8583984375, 306.83056640625, -1668.1649169921875], "UnitConfigName": "Npc_Road_045", "GenGroupId": 471514, "UiName": "Lonni", "MapType": "MainField", "MapName": "I-3", "data": {"Translate": [3136.8583984375, 306.83056640625, -1668.1649169921875], "UnitConfigName": "Npc_Road_045", "HashId": 2115870761, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3904949051}, {"DefinitionName": "GuideRef", "DestUnitHashId": 754354668}, {"DefinitionName": "GuideRef", "DestUnitHashId": 514484327}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4281910358}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1578007961}, {"DefinitionName": "GuideRef", "DestUnitHashId": 771368133}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4179934092}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2473279917}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4075320415}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2950381311}], "ShopData": true}, "LinksToRail": [{"DefinitionName": "GuideRef", "DestUnitHashId": 3904949051}, {"DefinitionName": "GuideRef", "DestUnitHashId": 754354668}, {"DefinitionName": "GuideRef", "DestUnitHashId": 514484327}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4281910358}, {"DefinitionName": "GuideRef", "DestUnitHashId": 1578007961}, {"DefinitionName": "GuideRef", "DestUnitHashId": 771368133}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4179934092}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2473279917}, {"DefinitionName": "GuideRef", "DestUnitHashId": 4075320415}, {"DefinitionName": "GuideRef", "DestUnitHashId": 2950381311}]}]
+[
+  {
+    "HashId": 2115870720,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      -1467.8551025390625,
+      134.2485809326172,
+      1462.1895751953125
+    ],
+    "UnitConfigName": "Npc_Road_001",
+    "GenGroupId": 516570,
+    "UiName": "Botrick",
+    "MapType": "MainField",
+    "MapName": "D-6",
+    "data": {
+      "Translate": [
+        -1467.8551025390625,
+        134.2485809326172,
+        1462.1895751953125
+      ],
+      "UnitConfigName": "Npc_Road_001",
+      "HashId": 2115870720,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 422565113
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1540223276
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1767214228
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3355949282
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 422565113
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1540223276
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1767214228
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3355949282
+      }
+    ]
+  },
+  {
+    "HashId": 2115870721,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      1040.05810546875,
+      116.36934661865234,
+      1890.5
+    ],
+    "UnitConfigName": "Npc_Road_002",
+    "GenGroupId": 516570,
+    "UiName": "Mezer",
+    "MapType": "MainField",
+    "MapName": "G-6",
+    "data": {
+      "Translate": [
+        1040.05810546875,
+        116.36934661865234,
+        1890.5
+      ],
+      "UnitConfigName": "Npc_Road_002",
+      "HashId": 2115870721,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 509627114
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 874391461
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 721737972
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1543759970
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4136763761
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2961163211
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 509627114
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 874391461
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 721737972
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1543759970
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4136763761
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2961163211
+      }
+    ]
+  },
+  {
+    "HashId": 2115870722,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      878.9053955078125,
+      131.77862548828125,
+      177.08975219726562
+    ],
+    "UnitConfigName": "Npc_Road_003",
+    "GenGroupId": 516570,
+    "UiName": "Rik",
+    "MapType": "MainField",
+    "MapName": "F-5",
+    "data": {
+      "Translate": [
+        878.9053955078125,
+        131.77862548828125,
+        177.08975219726562
+      ],
+      "UnitConfigName": "Npc_Road_003",
+      "HashId": 2115870722,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1780865559
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 8566410
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3550997847
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 636499016
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1245182473
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 173983005
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4108291045
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3562990203
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3971510404
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 556821293
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2214982741
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2534538496
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1780865559
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 8566410
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3550997847
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 636499016
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1245182473
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 173983005
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4108291045
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3562990203
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3971510404
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 556821293
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2214982741
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2534538496
+      }
+    ]
+  },
+  {
+    "HashId": 2115870723,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      1770.138671875,
+      116.81322479248047,
+      1966.912841796875
+    ],
+    "UnitConfigName": "Npc_Road_004",
+    "GenGroupId": 516570,
+    "UiName": "Agus",
+    "MapType": "MainField",
+    "MapName": "G-6",
+    "data": {
+      "Translate": [
+        1770.138671875,
+        116.81322479248047,
+        1966.912841796875
+      ],
+      "UnitConfigName": "Npc_Road_004",
+      "HashId": 2115870723,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1694896436
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 147559759
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1014010508
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 601836639
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1014912847
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 160919740
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1991802720
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3794892005
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3329736833
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4126111784
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1191727708
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2198282518
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1694896436
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 147559759
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1014010508
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 601836639
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1014912847
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 160919740
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1991802720
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3794892005
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3329736833
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4126111784
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1191727708
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2198282518
+      }
+    ]
+  },
+  {
+    "HashId": 2115870724,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      -1575.9420166015625,
+      212.3748321533203,
+      -1789.1634521484375
+    ],
+    "UnitConfigName": "Npc_Road_005",
+    "GenGroupId": 516570,
+    "UiName": "Kanny",
+    "MapType": "MainField",
+    "MapName": "D-3",
+    "data": {
+      "Translate": [
+        -1575.9420166015625,
+        212.3748321533203,
+        -1789.1634521484375
+      ],
+      "UnitConfigName": "Npc_Road_005",
+      "HashId": 2115870724,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 8547658
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1528788622
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 594103238
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3748032060
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3944984689
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1115149561
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 570600847
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3103162463
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3743544242
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1603542343
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4173891259
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2436233553
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1340659041
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 75634982
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1429591875
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 8547658
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1528788622
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 594103238
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3748032060
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3944984689
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1115149561
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 570600847
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3103162463
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3743544242
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1603542343
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4173891259
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2436233553
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1340659041
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 75634982
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1429591875
+      }
+    ]
+  },
+  {
+    "HashId": 2115870725,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      2584.195556640625,
+      253.5156707763672,
+      -1160.39697265625
+    ],
+    "UnitConfigName": "Npc_Road_006",
+    "GenGroupId": 516570,
+    "UiName": "Zorona",
+    "MapType": "MainField",
+    "MapName": "H-3",
+    "data": {
+      "Translate": [
+        2584.195556640625,
+        253.5156707763672,
+        -1160.39697265625
+      ],
+      "UnitConfigName": "Npc_Road_006",
+      "HashId": 2115870725,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2111463985
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 114403408
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3207950847
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3259398055
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3649304972
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2999250949
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 254896230
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2530128954
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2025903382
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 95671118
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3060720264
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2111463985
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 114403408
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3207950847
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3259398055
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3649304972
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2999250949
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 254896230
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2530128954
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2025903382
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 95671118
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3060720264
+      }
+    ]
+  },
+  {
+    "HashId": 2115870726,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      2609.308349609375,
+      253.8481903076172,
+      -1147.0531005859375
+    ],
+    "UnitConfigName": "Npc_Road_007",
+    "GenGroupId": 516570,
+    "UiName": "Kairo",
+    "MapType": "MainField",
+    "MapName": "H-3",
+    "data": {
+      "Translate": [
+        2609.308349609375,
+        253.8481903076172,
+        -1147.0531005859375
+      ],
+      "UnitConfigName": "Npc_Road_007",
+      "HashId": 2115870726,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1308564134
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3711537768
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3293146901
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3788949394
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1308564134
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3711537768
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3293146901
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3788949394
+      }
+    ]
+  },
+  {
+    "HashId": 2115870727,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      1772.018798828125,
+      116.1877670288086,
+      1960.431640625
+    ],
+    "UnitConfigName": "Npc_Road_008",
+    "GenGroupId": 516570,
+    "UiName": "Toma",
+    "MapType": "MainField",
+    "MapName": "G-6",
+    "data": {
+      "Translate": [
+        1772.018798828125,
+        116.1877670288086,
+        1960.431640625
+      ],
+      "UnitConfigName": "Npc_Road_008",
+      "HashId": 2115870727,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2569713605
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 147559759
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1014010508
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 601836639
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1014912847
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 160919740
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1991802720
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3794892005
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3329736833
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4126111784
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1191727708
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2147539057
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2606421385
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1221156171
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2569713605
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 147559759
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1014010508
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 601836639
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1014912847
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 160919740
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1991802720
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3794892005
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3329736833
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4126111784
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1191727708
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2147539057
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2606421385
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1221156171
+      }
+    ]
+  },
+  {
+    "HashId": 2115870728,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      2941.885009765625,
+      112.44611358642578,
+      3437.84521484375
+    ],
+    "UnitConfigName": "Npc_Road_009",
+    "GenGroupId": 516570,
+    "UiName": "Letty",
+    "MapType": "MainField",
+    "MapName": "H-8",
+    "data": {
+      "Translate": [
+        2941.885009765625,
+        112.44611358642578,
+        3437.84521484375
+      ],
+      "UnitConfigName": "Npc_Road_009",
+      "HashId": 2115870728,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3366844096
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 676543785
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1446692725
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3069357936
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3799674093
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3258718766
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3366844096
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 676543785
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1446692725
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3069357936
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3799674093
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3258718766
+      }
+    ]
+  },
+  {
+    "HashId": 2115870729,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      -2901.783203125,
+      274.71051025390625,
+      -565.7744750976562
+    ],
+    "UnitConfigName": "Npc_Road_010",
+    "GenGroupId": 516570,
+    "UiName": "Yammo",
+    "MapType": "MainField",
+    "MapName": "C-4",
+    "data": {
+      "Translate": [
+        -2901.783203125,
+        274.71051025390625,
+        -565.7744750976562
+      ],
+      "UnitConfigName": "Npc_Road_010",
+      "HashId": 2115870729,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 454476661
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3600690529
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3313010566
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4124144748
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4158204620
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3114662735
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2457485715
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 494147688
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1748006964
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1528788622
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3428882246
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 594103238
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3748032060
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 570600847
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3944984689
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1115149561
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2066577859
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 454476661
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3600690529
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3313010566
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4124144748
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4158204620
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3114662735
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2457485715
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 494147688
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1748006964
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1528788622
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3428882246
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 594103238
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3748032060
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 570600847
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3944984689
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1115149561
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2066577859
+      }
+    ]
+  },
+  {
+    "HashId": 2115870730,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      -3197.412353515625,
+      129.35293579101562,
+      2549.437744140625
+    ],
+    "UnitConfigName": "Npc_Road_011",
+    "GenGroupId": 516570,
+    "UiName": "Kyra",
+    "MapType": "MainField",
+    "MapName": "B-7",
+    "data": {
+      "Translate": [
+        -3197.412353515625,
+        129.35293579101562,
+        2549.437744140625
+      ],
+      "UnitConfigName": "Npc_Road_011",
+      "HashId": 2115870730,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4108882120
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3273463362
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 768138114
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4108882120
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3273463362
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 768138114
+      }
+    ]
+  },
+  {
+    "HashId": 2115870731,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      -3215.1376953125,
+      129.262451171875,
+      2526.21923828125
+    ],
+    "UnitConfigName": "Npc_Road_012",
+    "GenGroupId": 516570,
+    "UiName": "Calisa",
+    "MapType": "MainField",
+    "MapName": "B-7",
+    "data": {
+      "Translate": [
+        -3215.1376953125,
+        129.262451171875,
+        2526.21923828125
+      ],
+      "UnitConfigName": "Npc_Road_012",
+      "HashId": 2115870731,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2593625034
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2562759036
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 34881392
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3929245052
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1440244829
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1354125763
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2593625034
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2562759036
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 34881392
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3929245052
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1440244829
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1354125763
+      }
+    ]
+  },
+  {
+    "HashId": 2115870732,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      1545.72265625,
+      166.510009765625,
+      3538.99658203125
+    ],
+    "UnitConfigName": "Npc_Road_013",
+    "GenGroupId": 516570,
+    "UiName": "Meeshy",
+    "MapType": "MainField",
+    "MapName": "G-8",
+    "data": {
+      "Translate": [
+        1545.72265625,
+        166.510009765625,
+        3538.99658203125
+      ],
+      "UnitConfigName": "Npc_Road_013",
+      "HashId": 2115870732,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1616858345
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 777365121
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 208932289
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 747014035
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 200692390
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1535227653
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1558999836
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2078826905
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1616858345
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 777365121
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 208932289
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 747014035
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 200692390
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1535227653
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1558999836
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2078826905
+      }
+    ]
+  },
+  {
+    "HashId": 2115870733,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      2949.7900390625,
+      108.83908081054688,
+      3417.3916015625
+    ],
+    "UnitConfigName": "Npc_Road_014",
+    "GenGroupId": 516570,
+    "UiName": "Spinch",
+    "MapType": "MainField",
+    "MapName": "H-8",
+    "data": {
+      "Translate": [
+        2949.7900390625,
+        108.83908081054688,
+        3417.3916015625
+      ],
+      "UnitConfigName": "Npc_Road_014",
+      "HashId": 2115870733,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1633761037
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 676543785
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1446692725
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3069357936
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3799674093
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2770770338
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1633761037
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 676543785
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1446692725
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3069357936
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3799674093
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2770770338
+      }
+    ]
+  },
+  {
+    "HashId": 2115870734,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      2934.468994140625,
+      110.66015625,
+      3451.27978515625
+    ],
+    "UnitConfigName": "Npc_Road_015",
+    "GenGroupId": 516570,
+    "UiName": "Chumin",
+    "MapType": "MainField",
+    "MapName": "H-8",
+    "data": {
+      "Translate": [
+        2934.468994140625,
+        110.66015625,
+        3451.27978515625
+      ],
+      "UnitConfigName": "Npc_Road_015",
+      "HashId": 2115870734,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1469390758
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 676543785
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1446692725
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3069357936
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3799674093
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2098390360
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 777365121
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 208932289
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 747014035
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 200692390
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1535227653
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1558999836
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2354988232
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1469390758
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 676543785
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1446692725
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3069357936
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3799674093
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2098390360
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 777365121
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 208932289
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 747014035
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 200692390
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1535227653
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1558999836
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2354988232
+      }
+    ]
+  },
+  {
+    "HashId": 2115870735,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      1543.3714599609375,
+      166.510009765625,
+      3536.538818359375
+    ],
+    "UnitConfigName": "Npc_Road_016",
+    "GenGroupId": 516570,
+    "UiName": "Totsuna",
+    "MapType": "MainField",
+    "MapName": "G-8",
+    "data": {
+      "Translate": [
+        1543.3714599609375,
+        166.510009765625,
+        3536.538818359375
+      ],
+      "UnitConfigName": "Npc_Road_016",
+      "HashId": 2115870735,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3686524491
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 777365121
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 208932289
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 747014035
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 200692390
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1535227653
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1558999836
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 806937581
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3686524491
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 777365121
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 208932289
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 747014035
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 200692390
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1535227653
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1558999836
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 806937581
+      }
+    ]
+  },
+  {
+    "HashId": 2115870736,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      -1470.546142578125,
+      137.74090576171875,
+      1267.0792236328125
+    ],
+    "UnitConfigName": "Npc_Road_017",
+    "GenGroupId": 516570,
+    "UiName": "Glendo",
+    "MapType": "MainField",
+    "MapName": "D-6",
+    "data": {
+      "Translate": [
+        -1470.546142578125,
+        137.74090576171875,
+        1267.0792236328125
+      ],
+      "UnitConfigName": "Npc_Road_017",
+      "HashId": 2115870736,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1558652921
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3355949282
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3770466699
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2240440839
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2745475947
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3288396036
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3831691753
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 176163798
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2282317501
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1558652921
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3355949282
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3770466699
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2240440839
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2745475947
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3288396036
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3831691753
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 176163798
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2282317501
+      }
+    ]
+  },
+  {
+    "HashId": 2115870737,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      1757.601318359375,
+      116.06304168701172,
+      1934.5721435546875
+    ],
+    "UnitConfigName": "Npc_Road_018",
+    "GenGroupId": 516570,
+    "UiName": "Brokka",
+    "MapType": "MainField",
+    "MapName": "G-6",
+    "data": {
+      "Translate": [
+        1757.601318359375,
+        116.06304168701172,
+        1934.5721435546875
+      ],
+      "UnitConfigName": "Npc_Road_018",
+      "HashId": 2115870737,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1789434527
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 147559759
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1014010508
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2687789632
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3604273112
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2038266936
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 629975510
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1545091924
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2725032928
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1789434527
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 147559759
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1014010508
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2687789632
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3604273112
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2038266936
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 629975510
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1545091924
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2725032928
+      }
+    ]
+  },
+  {
+    "HashId": 2115870738,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      1760.89892578125,
+      116.06304168701172,
+      1934.8533935546875
+    ],
+    "UnitConfigName": "Npc_Road_019",
+    "GenGroupId": 516570,
+    "UiName": "Bugut",
+    "MapType": "MainField",
+    "MapName": "G-6",
+    "data": {
+      "Translate": [
+        1760.89892578125,
+        116.06304168701172,
+        1934.8533935546875
+      ],
+      "UnitConfigName": "Npc_Road_019",
+      "HashId": 2115870738,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3488713712
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1014010508
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2687789632
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3604273112
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2038266936
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 629975510
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1545091924
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 779464926
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3488713712
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1014010508
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2687789632
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3604273112
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2038266936
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 629975510
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1545091924
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 779464926
+      }
+    ]
+  },
+  {
+    "HashId": 2115870739,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      2348.98046875,
+      116.76460266113281,
+      1849.82568359375
+    ],
+    "UnitConfigName": "Npc_Road_020",
+    "GenGroupId": 516570,
+    "UiName": "Teli",
+    "MapType": "MainField",
+    "MapName": "H-6",
+    "data": {
+      "Translate": [
+        2348.98046875,
+        116.76460266113281,
+        1849.82568359375
+      ],
+      "UnitConfigName": "Npc_Road_020",
+      "HashId": 2115870739,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2057373168
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 160919740
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1991802720
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3794892005
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3329736833
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4126111784
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1191727708
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2147539057
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2606421385
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1967481474
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2057373168
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 160919740
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1991802720
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3794892005
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3329736833
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4126111784
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1191727708
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2147539057
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2606421385
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1967481474
+      }
+    ]
+  },
+  {
+    "HashId": 2115870740,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      1773.96875,
+      116.43059539794922,
+      1911.950439453125
+    ],
+    "UnitConfigName": "Npc_Road_021",
+    "GenGroupId": 516570,
+    "UiName": "Joute",
+    "MapType": "MainField",
+    "MapName": "G-6",
+    "data": {
+      "Translate": [
+        1773.96875,
+        116.43059539794922,
+        1911.950439453125
+      ],
+      "UnitConfigName": "Npc_Road_021",
+      "HashId": 2115870740,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3844345225
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1014010508
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 601836639
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1014912847
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 160919740
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1991802720
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3794892005
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3329736833
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4126111784
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1191727708
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2147539057
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2606421385
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2231503574
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3385770067
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 736931466
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3844345225
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1014010508
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 601836639
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1014912847
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 160919740
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1991802720
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3794892005
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3329736833
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4126111784
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1191727708
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2147539057
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2606421385
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2231503574
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3385770067
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 736931466
+      }
+    ]
+  },
+  {
+    "HashId": 2115870741,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      1764.072509765625,
+      116.06804656982422,
+      1919.748046875
+    ],
+    "UnitConfigName": "Npc_Road_022",
+    "GenGroupId": 516570,
+    "UiName": "Celessa",
+    "MapType": "MainField",
+    "MapName": "G-6",
+    "data": {
+      "Translate": [
+        1764.072509765625,
+        116.06804656982422,
+        1919.748046875
+      ],
+      "UnitConfigName": "Npc_Road_022",
+      "HashId": 2115870741,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2588968628
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1014010508
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 601836639
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1014912847
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2545305865
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 160919740
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1991802720
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3794892005
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3329736833
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4126111784
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1191727708
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2147539057
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 889190705
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2588968628
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1014010508
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 601836639
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1014912847
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2545305865
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 160919740
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1991802720
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3794892005
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3329736833
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4126111784
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1191727708
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2147539057
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 889190705
+      }
+    ]
+  },
+  {
+    "HashId": 2115870742,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      892.853271484375,
+      131.70065307617188,
+      205.85455322265625
+    ],
+    "UnitConfigName": "Npc_Road_023",
+    "GenGroupId": 516570,
+    "UiName": "Kazul",
+    "MapType": "MainField",
+    "MapName": "F-5",
+    "data": {
+      "Translate": [
+        892.853271484375,
+        131.70065307617188,
+        205.85455322265625
+      ],
+      "UnitConfigName": "Npc_Road_023",
+      "HashId": 2115870742,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 398068186
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 8566410
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3550997847
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 636499016
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1245182473
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 173983005
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1563715259
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 835885109
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4275184057
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 494201549
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1596788423
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2242152129
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2707930037
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2712088099
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 398068186
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 8566410
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3550997847
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 636499016
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1245182473
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 173983005
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1563715259
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 835885109
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4275184057
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 494201549
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1596788423
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2242152129
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2707930037
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2712088099
+      }
+    ]
+  },
+  {
+    "HashId": 2115870743,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      889.6187744140625,
+      131.68807983398438,
+      203.52487182617188
+    ],
+    "UnitConfigName": "Npc_Road_024",
+    "GenGroupId": 516570,
+    "UiName": "Cambo",
+    "MapType": "MainField",
+    "MapName": "F-5",
+    "data": {
+      "Translate": [
+        889.6187744140625,
+        131.68807983398438,
+        203.52487182617188
+      ],
+      "UnitConfigName": "Npc_Road_024",
+      "HashId": 2115870743,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 233532566
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 8566410
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3550997847
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 636499016
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1245182473
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 173983005
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4108291045
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3562990203
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3971510404
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 556821293
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 319548637
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 233532566
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 8566410
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3550997847
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 636499016
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1245182473
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 173983005
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4108291045
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3562990203
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3971510404
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 556821293
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 319548637
+      }
+    ]
+  },
+  {
+    "HashId": 2115870744,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      934.739013671875,
+      135.7801055908203,
+      125.67825317382812
+    ],
+    "UnitConfigName": "Npc_Road_025",
+    "GenGroupId": 516570,
+    "UiName": "Endai",
+    "MapType": "MainField",
+    "MapName": "F-5",
+    "data": {
+      "Translate": [
+        934.739013671875,
+        135.7801055908203,
+        125.67825317382812
+      ],
+      "UnitConfigName": "Npc_Road_025",
+      "HashId": 2115870744,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1987368715
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 636499016
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1245182473
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 173983005
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1563715259
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 835885109
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4275184057
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 494201549
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1596788423
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2242152129
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2707930037
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 737982267
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1987368715
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 636499016
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1245182473
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 173983005
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1563715259
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 835885109
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4275184057
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 494201549
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1596788423
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2242152129
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2707930037
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 737982267
+      }
+    ]
+  },
+  {
+    "HashId": 2115870745,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      927.6534423828125,
+      135.63397216796875,
+      127.92999267578125
+    ],
+    "UnitConfigName": "Npc_Road_026",
+    "GenGroupId": 516570,
+    "UiName": "Spoone",
+    "MapType": "MainField",
+    "MapName": "F-5",
+    "data": {
+      "Translate": [
+        927.6534423828125,
+        135.63397216796875,
+        127.92999267578125
+      ],
+      "UnitConfigName": "Npc_Road_026",
+      "HashId": 2115870745,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 114880142
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 636499016
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1245182473
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 173983005
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1563715259
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 835885109
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4275184057
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 494201549
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1596788423
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2242152129
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2707930037
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3470382949
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 114880142
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 636499016
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1245182473
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 173983005
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1563715259
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 835885109
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4275184057
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 494201549
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1596788423
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2242152129
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2707930037
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3470382949
+      }
+    ]
+  },
+  {
+    "HashId": 2115870746,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      2347.225341796875,
+      255.56082153320312,
+      -1538.7457275390625
+    ],
+    "UnitConfigName": "Npc_Road_027",
+    "GenGroupId": 516570,
+    "UiName": "Dayto",
+    "MapType": "MainField",
+    "MapName": "H-3",
+    "data": {
+      "Translate": [
+        2347.225341796875,
+        255.56082153320312,
+        -1538.7457275390625
+      ],
+      "UnitConfigName": "Npc_Road_027",
+      "HashId": 2115870746,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2887720775
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3293146901
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3711537768
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2070570568
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2887720775
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3293146901
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3711537768
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2070570568
+      }
+    ]
+  },
+  {
+    "HashId": 2115870747,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      2615.118408203125,
+      253.85317993164062,
+      -1148.515380859375
+    ],
+    "UnitConfigName": "Npc_Road_028",
+    "GenGroupId": 516570,
+    "UiName": "Boldon",
+    "MapType": "MainField",
+    "MapName": "H-3",
+    "data": {
+      "Translate": [
+        2615.118408203125,
+        253.85317993164062,
+        -1148.515380859375
+      ],
+      "UnitConfigName": "Npc_Road_028",
+      "HashId": 2115870747,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 999031183
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 114403408
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3207950847
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3259398055
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3649304972
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2999250949
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 254896230
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2530128954
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2025903382
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 95671118
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4138137367
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2526244360
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 999031183
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 114403408
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3207950847
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3259398055
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3649304972
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2999250949
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 254896230
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2530128954
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2025903382
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 95671118
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4138137367
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2526244360
+      }
+    ]
+  },
+  {
+    "HashId": 2115870748,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      2618.1484375,
+      253.8481903076172,
+      -1147.9771728515625
+    ],
+    "UnitConfigName": "Npc_Road_029",
+    "GenGroupId": 516570,
+    "UiName": "Karsh",
+    "MapType": "MainField",
+    "MapName": "H-3",
+    "data": {
+      "Translate": [
+        2618.1484375,
+        253.8481903076172,
+        -1147.9771728515625
+      ],
+      "UnitConfigName": "Npc_Road_029",
+      "HashId": 2115870748,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1747758167
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 114403408
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3207950847
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3259398055
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3649304972
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2999250949
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 254896230
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2530128954
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2025903382
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 95671118
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4138137367
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1705964063
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1747758167
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 114403408
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3207950847
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3259398055
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3649304972
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2999250949
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 254896230
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2530128954
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2025903382
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 95671118
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4138137367
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1705964063
+      }
+    ]
+  },
+  {
+    "HashId": 2115870749,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      -2800.309326171875,
+      135.44142150878906,
+      2217.475341796875
+    ],
+    "UnitConfigName": "Npc_Road_030",
+    "GenGroupId": 516570,
+    "UiName": "Gartan",
+    "MapType": "MainField",
+    "MapName": "C-7",
+    "data": {
+      "Translate": [
+        -2800.309326171875,
+        135.44142150878906,
+        2217.475341796875
+      ],
+      "UnitConfigName": "Npc_Road_030",
+      "HashId": 2115870749,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3738409363
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 948315245
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1440244829
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3929245052
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 34881392
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2562759036
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4108882120
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3168368118
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3273463362
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1657396844
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3738409363
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 948315245
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1440244829
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3929245052
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 34881392
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2562759036
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4108882120
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3168368118
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3273463362
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1657396844
+      }
+    ]
+  },
+  {
+    "HashId": 2115870750,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      -2580.32080078125,
+      159.41778564453125,
+      2060.8818359375
+    ],
+    "UnitConfigName": "Npc_Road_031",
+    "GenGroupId": 516570,
+    "UiName": "Maypin",
+    "MapType": "MainField",
+    "MapName": "C-7",
+    "data": {
+      "Translate": [
+        -2580.32080078125,
+        159.41778564453125,
+        2060.8818359375
+      ],
+      "UnitConfigName": "Npc_Road_031",
+      "HashId": 2115870750,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1966232939
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1543638902
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1440244829
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2125113136
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1966232939
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1543638902
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1440244829
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2125113136
+      }
+    ]
+  },
+  {
+    "HashId": 2115870751,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      -2802.1083984375,
+      135.44142150878906,
+      2233.478759765625
+    ],
+    "UnitConfigName": "Npc_Road_032",
+    "GenGroupId": 516570,
+    "UiName": "Lukan",
+    "MapType": "MainField",
+    "MapName": "C-7",
+    "data": {
+      "Translate": [
+        -2802.1083984375,
+        135.44142150878906,
+        2233.478759765625
+      ],
+      "UnitConfigName": "Npc_Road_032",
+      "HashId": 2115870751,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 279427057
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 948315245
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1440244829
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3929245052
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 34881392
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2562759036
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4108882120
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3168368118
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3273463362
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2162090047
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 279427057
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 948315245
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1440244829
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3929245052
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 34881392
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2562759036
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4108882120
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3168368118
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3273463362
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2162090047
+      }
+    ]
+  },
+  {
+    "HashId": 2115870752,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      -2903.809814453125,
+      274.8681945800781,
+      -557.2490234375
+    ],
+    "UnitConfigName": "Npc_Road_033",
+    "GenGroupId": 516570,
+    "UiName": "Nazbi",
+    "MapType": "MainField",
+    "MapName": "C-4",
+    "data": {
+      "Translate": [
+        -2903.809814453125,
+        274.8681945800781,
+        -557.2490234375
+      ],
+      "UnitConfigName": "Npc_Road_033",
+      "HashId": 2115870752,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 330726427
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3600690529
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3313010566
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4124144748
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4158204620
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3114662735
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2457485715
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 494147688
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1748006964
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 594103238
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3099837821
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3748032060
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1115149561
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 570600847
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3944984689
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 657845232
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 330726427
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3600690529
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3313010566
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4124144748
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4158204620
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3114662735
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2457485715
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 494147688
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1748006964
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 594103238
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3099837821
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3748032060
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1115149561
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 570600847
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3944984689
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 657845232
+      }
+    ]
+  },
+  {
+    "HashId": 2115870753,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      -1522.3363037109375,
+      212.23468017578125,
+      -1769.606689453125
+    ],
+    "UnitConfigName": "Npc_Road_034",
+    "GenGroupId": 516570,
+    "UiName": "Ronn",
+    "MapType": "MainField",
+    "MapName": "D-3",
+    "data": {
+      "Translate": [
+        -1522.3363037109375,
+        212.23468017578125,
+        -1769.606689453125
+      ],
+      "UnitConfigName": "Npc_Road_034",
+      "HashId": 2115870753,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 714343146
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3748032060
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 570600847
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1115149561
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3944984689
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 315592498
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 714343146
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3748032060
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 570600847
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1115149561
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3944984689
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 315592498
+      }
+    ]
+  },
+  {
+    "HashId": 2115870754,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      -2892.724853515625,
+      274.7279968261719,
+      -558.38232421875
+    ],
+    "UnitConfigName": "Npc_Road_035",
+    "GenGroupId": 516570,
+    "UiName": "Baddek",
+    "MapType": "MainField",
+    "MapName": "C-4",
+    "data": {
+      "Translate": [
+        -2892.724853515625,
+        274.7279968261719,
+        -558.38232421875
+      ],
+      "UnitConfigName": "Npc_Road_035",
+      "HashId": 2115870754,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1718271111
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3600690529
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3313010566
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4124144748
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4158204620
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3114662735
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2457485715
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 494147688
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2568870486
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1718271111
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3600690529
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3313010566
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4124144748
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4158204620
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3114662735
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2457485715
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 494147688
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2568870486
+      }
+    ]
+  },
+  {
+    "HashId": 2115870755,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      -2927.15380859375,
+      275.4565734863281,
+      -516.2594604492188
+    ],
+    "UnitConfigName": "Npc_Road_036",
+    "GenGroupId": 516570,
+    "UiName": "Savelle",
+    "MapType": "MainField",
+    "MapName": "C-4",
+    "data": {
+      "Translate": [
+        -2927.15380859375,
+        275.4565734863281,
+        -516.2594604492188
+      ],
+      "UnitConfigName": "Npc_Road_036",
+      "HashId": 2115870755,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 134952434
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3600690529
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3313010566
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4124144748
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4158204620
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3114662735
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2457485715
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 494147688
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3640938648
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 134952434
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3600690529
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3313010566
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4124144748
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4158204620
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3114662735
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2457485715
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 494147688
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3640938648
+      }
+    ]
+  },
+  {
+    "HashId": 2115870756,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      -1650.0693359375,
+      339.7777404785156,
+      -2579.62890625
+    ],
+    "UnitConfigName": "Npc_Road_037",
+    "GenGroupId": 516570,
+    "UiName": "Falmark",
+    "MapType": "MainField",
+    "MapName": "D-2",
+    "data": {
+      "Translate": [
+        -1650.0693359375,
+        339.7777404785156,
+        -2579.62890625
+      ],
+      "UnitConfigName": "Npc_Road_037",
+      "HashId": 2115870756,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2020138336
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3384506158
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1603542343
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4173891259
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2436233553
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1340659041
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 75634982
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 704555472
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2315298957
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2020138336
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3384506158
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1603542343
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4173891259
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2436233553
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1340659041
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 75634982
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 704555472
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2315298957
+      }
+    ]
+  },
+  {
+    "HashId": 2115870757,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      -1667.281005859375,
+      339.3175354003906,
+      -2541.2626953125
+    ],
+    "UnitConfigName": "Npc_Road_040",
+    "GenGroupId": 516570,
+    "UiName": "Baumar",
+    "MapType": "MainField",
+    "MapName": "D-2",
+    "data": {
+      "Translate": [
+        -1667.281005859375,
+        339.3175354003906,
+        -2541.2626953125
+      ],
+      "UnitConfigName": "Npc_Road_040",
+      "HashId": 2115870757,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 559322410
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3743544242
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3944984689
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1115149561
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 570600847
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3748032060
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3171934307
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 559322410
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3743544242
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3944984689
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1115149561
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 570600847
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3748032060
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3171934307
+      }
+    ]
+  },
+  {
+    "HashId": 2115870758,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      3120.95068359375,
+      306.7212829589844,
+      -1694.533935546875
+    ],
+    "UnitConfigName": "Npc_Road_041",
+    "GenGroupId": 516570,
+    "UiName": "Pitar",
+    "MapType": "MainField",
+    "MapName": "I-3",
+    "data": {
+      "Translate": [
+        3120.95068359375,
+        306.7212829589844,
+        -1694.533935546875
+      ],
+      "UnitConfigName": "Npc_Road_041",
+      "HashId": 2115870758,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3898244631
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 114207255
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 894833342
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3173132669
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 800096116
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3898244631
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 114207255
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 894833342
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3173132669
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 800096116
+      }
+    ]
+  },
+  {
+    "HashId": 2115870759,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      3158.71337890625,
+      307.2695617675781,
+      -1692.9248046875
+    ],
+    "UnitConfigName": "Npc_Road_042",
+    "GenGroupId": 516570,
+    "UiName": "Naddon",
+    "MapType": "MainField",
+    "MapName": "I-3",
+    "data": {
+      "Translate": [
+        3158.71337890625,
+        307.2695617675781,
+        -1692.9248046875
+      ],
+      "UnitConfigName": "Npc_Road_042",
+      "HashId": 2115870759,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1967519410
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 114207255
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 894833342
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3173132669
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3145929775
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1967519410
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 114207255
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 894833342
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3173132669
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3145929775
+      }
+    ]
+  },
+  {
+    "HashId": 2115870760,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      3148.7822265625,
+      307.2695617675781,
+      -1698.7901611328125
+    ],
+    "UnitConfigName": "Npc_Road_043",
+    "GenGroupId": 516570,
+    "UiName": "Laroba",
+    "MapType": "MainField",
+    "MapName": "I-3",
+    "data": {
+      "Translate": [
+        3148.7822265625,
+        307.2695617675781,
+        -1698.7901611328125
+      ],
+      "UnitConfigName": "Npc_Road_043",
+      "HashId": 2115870760,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1685808927
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 114207255
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 894833342
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3173132669
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3948693388
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1685808927
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 114207255
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 894833342
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3173132669
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3948693388
+      }
+    ]
+  },
+  {
+    "HashId": 2115870761,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      3155.37353515625,
+      307.2695617675781,
+      -1687.035400390625
+    ],
+    "UnitConfigName": "Npc_Road_044",
+    "GenGroupId": 516570,
+    "UiName": "Stamm",
+    "MapType": "MainField",
+    "MapName": "I-3",
+    "data": {
+      "Translate": [
+        3155.37353515625,
+        307.2695617675781,
+        -1687.035400390625
+      ],
+      "UnitConfigName": "Npc_Road_044",
+      "HashId": 2115870761,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 771368133
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4179934092
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3904949051
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4075320415
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1578007961
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 754354668
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 931858238
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2164964362
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 771368133
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4179934092
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3904949051
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4075320415
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1578007961
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 754354668
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 931858238
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2164964362
+      }
+    ]
+  },
+  {
+    "HashId": 2115870762,
+    "Rotate": [
+      0,
+      0,
+      0
+    ],
+    "Translate": [
+      3136.8583984375,
+      306.83056640625,
+      -1668.1649169921875
+    ],
+    "UnitConfigName": "Npc_Road_045",
+    "GenGroupId": 516570,
+    "UiName": "Lonni",
+    "MapType": "MainField",
+    "MapName": "I-3",
+    "data": {
+      "Translate": [
+        3136.8583984375,
+        306.83056640625,
+        -1668.1649169921875
+      ],
+      "UnitConfigName": "Npc_Road_045",
+      "HashId": 2115870762,
+      "LinksToRail": [
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4281910358
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4179934092
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 3904949051
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 4075320415
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 1578007961
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 2950381311
+        },
+        {
+          "DefinitionName": "GuideRef",
+          "DestUnitHashId": 514484327
+        }
+      ],
+      "ShopData": true
+    },
+    "LinksToRail": [
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4281910358
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4179934092
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 3904949051
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 4075320415
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 1578007961
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 2950381311
+      },
+      {
+        "DefinitionName": "GuideRef",
+        "DestUnitHashId": 514484327
+      }
+    ]
+  }
+]
